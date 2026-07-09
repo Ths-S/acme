@@ -1,0 +1,263 @@
+[
+  {
+    "_id": "wkybrax3pmrb6gud6",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 2,
+    "text": "Gym or workout",
+    "completed": false,
+    "color": "#14b8a6",
+    "createdAt": "2026-07-07T21:45:24.666Z"
+  },
+  {
+    "_id": "hdl0osf97mrb6gudc",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 3,
+    "text": "Admin catch-up",
+    "completed": true,
+    "color": "#22c55e",
+    "createdAt": "2026-07-07T21:45:24.672Z"
+  },
+  {
+    "_id": "rzb1376d1mrb6gudm",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 3,
+    "text": "Improve workflow",
+    "completed": false,
+    "color": "#22c55e",
+    "createdAt": "2026-07-07T21:45:24.682Z"
+  },
+  {
+    "_id": "iji2yezw5mrb6gudq",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 3,
+    "text": "Clear downloads folder",
+    "completed": false,
+    "color": "#22c55e",
+    "createdAt": "2026-07-07T21:45:24.686Z"
+  },
+  {
+    "_id": "d2q1affhwmrb6gudt",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 3,
+    "text": "Plan tomorrow's tasks",
+    "completed": false,
+    "color": "#22c55e",
+    "createdAt": "2026-07-07T21:45:24.689Z"
+  },
+  {
+    "_id": "kjxw1xdrzmrb6gudw",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 3,
+    "text": "Short walk break",
+    "completed": false,
+    "color": "#22c55e",
+    "createdAt": "2026-07-07T21:45:24.692Z"
+  },
+  {
+    "_id": "imd2chkoamrb6gudz",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 4,
+    "text": "Focused work sprint",
+    "completed": false,
+    "color": "#84cc16",
+    "createdAt": "2026-07-07T21:45:24.695Z"
+  },
+  {
+    "_id": "zvjduzkexmrb6gue7",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 4,
+    "text": "Review active projects",
+    "completed": true,
+    "color": "#84cc16",
+    "createdAt": "2026-07-07T21:45:24.703Z"
+  },
+  {
+    "_id": "py46dkllxmrb6guec",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 4,
+    "text": "Organise files or notes",
+    "completed": true,
+    "color": "#84cc16",
+    "createdAt": "2026-07-07T21:45:24.708Z"
+  },
+  {
+    "_id": "11xpawtm5mrb6guef",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 4,
+    "text": "Pay any due bills",
+    "completed": false,
+    "color": "#84cc16",
+    "createdAt": "2026-07-07T21:45:24.711Z"
+  },
+  {
+    "_id": "1ckx5krvamrb6guei",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 4,
+    "text": "Skill learning session",
+    "completed": true,
+    "color": "#84cc16",
+    "createdAt": "2026-07-07T21:45:24.714Z"
+  },
+  {
+    "_id": "rkm4owfszmrb6guel",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 4,
+    "text": "Light workout or stretch",
+    "completed": true,
+    "color": "#84cc16",
+    "createdAt": "2026-07-07T21:45:24.717Z"
+  },
+  {
+    "_id": "79pqjyyz5mrb6guen",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 4,
+    "text": "Update dashboard logs",
+    "completed": true,
+    "color": "#84cc16",
+    "createdAt": "2026-07-07T21:45:24.719Z"
+  },
+  {
+    "_id": "0rd6e38u3mrb6gueq",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 4,
+    "text": "Organize client files",
+    "completed": true,
+    "color": "#84cc16",
+    "createdAt": "2026-07-07T21:45:24.722Z"
+  },
+  {
+    "_id": "f9aqe89mdmrb6guer",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 5,
+    "text": "Finish outstanding tasks",
+    "completed": false,
+    "color": "#eab308",
+    "createdAt": "2026-07-07T21:45:24.723Z"
+  },
+  {
+    "_id": "wdq3vw3b8mrb6guet",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 5,
+    "text": "Send follow-ups",
+    "completed": false,
+    "color": "#eab308",
+    "createdAt": "2026-07-07T21:45:24.725Z"
+  },
+  {
+    "_id": "6wh9yg3khmrb6gueu",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 5,
+    "text": "Weekly review",
+    "completed": false,
+    "color": "#eab308",
+    "createdAt": "2026-07-07T21:45:24.726Z"
+  },
+  {
+    "_id": "kj10ihpylmrb6guew",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 5,
+    "text": "Clean workspace",
+    "completed": false,
+    "color": "#eab308",
+    "createdAt": "2026-07-07T21:45:24.728Z"
+  },
+  {
+    "_id": "jnf3hlhxymrb6guez",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 5,
+    "text": "Log weekly progress",
+    "completed": false,
+    "color": "#eab308",
+    "createdAt": "2026-07-07T21:45:24.731Z"
+  },
+  {
+    "_id": "kwu8rc7bjmrb6guf1",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 5,
+    "text": "Plan next week",
+    "completed": false,
+    "color": "#eab308",
+    "createdAt": "2026-07-07T21:45:24.733Z"
+  },
+  {
+    "_id": "3is84ml4omrb6guf3",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 6,
+    "text": "Personal project time",
+    "completed": true,
+    "color": "#f97316",
+    "createdAt": "2026-07-07T21:45:24.735Z"
+  },
+  {
+    "_id": "4t49zmu2nmrb6guf5",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 6,
+    "text": "Household tasks",
+    "completed": true,
+    "color": "#f97316",
+    "createdAt": "2026-07-07T21:45:24.737Z"
+  },
+  {
+    "_id": "kgagznh2omrb6guf7",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 6,
+    "text": "Exercise or outdoor activity",
+    "completed": true,
+    "color": "#f97316",
+    "createdAt": "2026-07-07T21:45:24.739Z"
+  },
+  {
+    "_id": "tne9pwx6omrb6guf9",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 6,
+    "text": "Reflect on the week",
+    "completed": true,
+    "color": "#f97316",
+    "createdAt": "2026-07-07T21:45:24.741Z"
+  },
+  {
+    "_id": "xip2sr049mrb6gufb",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 6,
+    "text": "Reset workspace",
+    "completed": true,
+    "color": "#f97316",
+    "createdAt": "2026-07-07T21:45:24.743Z"
+  },
+  {
+    "_id": "zybl3kuq8mrb6gufe",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 6,
+    "text": "Short walk break",
+    "completed": true,
+    "color": "#f97316",
+    "createdAt": "2026-07-07T21:45:24.746Z"
+  },
+  {
+    "_id": "65eallnlnmrbc4ndf",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 1,
+    "text": "Jogar mine",
+    "completed": false,
+    "color": "#3b82f6",
+    "createdAt": "2026-07-08T00:23:53.427Z"
+  },
+  {
+    "_id": "1p7k7dc8amrbc4tt3",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 0,
+    "text": "Jogar mine",
+    "completed": false,
+    "color": "#a855f7",
+    "createdAt": "2026-07-08T00:24:01.767Z"
+  },
+  {
+    "_id": "244rtl8usmrc1ieqc",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 0,
+    "text": "Jogar",
+    "completed": true,
+    "color": "#a855f7",
+    "createdAt": "2026-07-08T12:14:25.812Z"
+  }
+]

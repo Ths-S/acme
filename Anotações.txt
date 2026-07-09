@@ -1,0 +1,22 @@
+Bem
+
+Preciso marcar o progresso principalmente
+Identificar e resolver problemas
+
+Agora, o problema são as coisas que impedem o objetivo:
+
+Objetivo:
+- Renda extra e gorda
+- 
+
+Coisas que impedem o objetivo | No que o sistema pode ajudar
+
+- Telas (dopamina) | Sincronizar com o aplicativo da samsumg de quanto tempo de tela?
+- Vício | Um relógio que conta quanto tempo se passou desde a última queda, (dias, minutos, horas e segundos) cada variável deve contar o total
+- Uma tela ambiente para 
+
+
+Reclamações:
+- Os gráficos de rosca do task tracker ainda está muito pequeno, exclusivamente os dos dias da semana
+- A responsividade do Task tracker também está ruim, tem uma barra de scroll na horizontal e verticla, se pudesse tirar esse problema ao menos para o pc seria de bom tamanho
+- O gráfico do Mood & Motivation Tracker vai do primeiro dia até o último dia do mês, gostaria de testar ele indo do primeiro dia que se tem registro até o dia atual

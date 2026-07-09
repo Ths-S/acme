@@ -1,0 +1,4 @@
+Problemas:
+- Os gráficos de rosca do task tracker ainda está muito pequeno, exclusivamente os dos dias da semana
+- A responsividade do Task tracker também está ruim, tem uma barra de scroll na horizontal e verticla, se pudesse tirar esse problema ao menos para o pc seria de bom tamanho
+- O gráfico do Mood & Motivation Tracker vai do primeiro dia até o último dia do mês, gostaria de testar ele indo do primeiro dia que se tem registro até o dia atual

@@ -1,0 +1,178 @@
+[
+  {
+    "_id": "0rrevcsf6mrc9p2z9",
+    "month": "2026-01",
+    "weekOfMonth": 0,
+    "text": "Define monthly main objective",
+    "completed": true,
+    "createdAt": "2026-07-08T16:03:34.101Z"
+  },
+  {
+    "_id": "0hc6i4opwmrc9p2zb",
+    "month": "2026-01",
+    "weekOfMonth": 0,
+    "text": "Set up targets and metrics",
+    "completed": true,
+    "createdAt": "2026-07-08T16:03:34.103Z"
+  },
+  {
+    "_id": "8ehjlp1mhmrc9p2zb",
+    "month": "2026-01",
+    "weekOfMonth": 0,
+    "text": "First week check-in",
+    "completed": true,
+    "createdAt": "2026-07-08T16:03:34.103Z"
+  },
+  {
+    "_id": "wz6vwye01mrc9p2zc",
+    "month": "2026-01",
+    "weekOfMonth": 0,
+    "text": "Organize digital folders",
+    "completed": false,
+    "createdAt": "2026-07-08T16:03:34.104Z"
+  },
+  {
+    "_id": "ky8j56ruwmrc9p2zc",
+    "month": "2026-01",
+    "weekOfMonth": 1,
+    "text": "Review budget & expenses",
+    "completed": true,
+    "createdAt": "2026-07-08T16:03:34.104Z"
+  },
+  {
+    "_id": "z8x84hbpwmrc9p2zc",
+    "month": "2026-01",
+    "weekOfMonth": 1,
+    "text": "Check progress of habits",
+    "completed": true,
+    "createdAt": "2026-07-08T16:03:34.104Z"
+  },
+  {
+    "_id": "6kq0vi24nmrc9p2zd",
+    "month": "2026-01",
+    "weekOfMonth": 1,
+    "text": "Mid-month checkpoint",
+    "completed": false,
+    "createdAt": "2026-07-08T16:03:34.105Z"
+  },
+  {
+    "_id": "yr7lcw2tlmrc9p2zd",
+    "month": "2026-01",
+    "weekOfMonth": 2,
+    "text": "Analyze energy levels trends",
+    "completed": false,
+    "createdAt": "2026-07-08T16:03:34.105Z"
+  },
+  {
+    "_id": "zdx35f1j5mrc9p2ze",
+    "month": "2026-01",
+    "weekOfMonth": 2,
+    "text": "Optimize routine/schedule",
+    "completed": false,
+    "createdAt": "2026-07-08T16:03:34.106Z"
+  },
+  {
+    "_id": "ke39d3uczmrc9p2ze",
+    "month": "2026-01",
+    "weekOfMonth": 3,
+    "text": "Begin monthly evaluation",
+    "completed": false,
+    "createdAt": "2026-07-08T16:03:34.106Z"
+  },
+  {
+    "_id": "0gc9d8viumrc9p2zf",
+    "month": "2026-01",
+    "weekOfMonth": 3,
+    "text": "Backup critical system files",
+    "completed": false,
+    "createdAt": "2026-07-08T16:03:34.107Z"
+  },
+  {
+    "_id": "e1z6zo06nmrc9p2zf",
+    "month": "2026-07",
+    "weekOfMonth": 0,
+    "text": "Define monthly main objective",
+    "completed": true,
+    "createdAt": "2026-07-08T16:03:34.107Z"
+  },
+  {
+    "_id": "6w2296k8jmrc9p2zg",
+    "month": "2026-07",
+    "weekOfMonth": 0,
+    "text": "Set up targets and metrics",
+    "completed": true,
+    "createdAt": "2026-07-08T16:03:34.108Z"
+  },
+  {
+    "_id": "mujwqk5scmrc9p2zg",
+    "month": "2026-07",
+    "weekOfMonth": 0,
+    "text": "First week check-in",
+    "completed": true,
+    "createdAt": "2026-07-08T16:03:34.108Z"
+  },
+  {
+    "_id": "jnqaj1yyemrc9p2zg",
+    "month": "2026-07",
+    "weekOfMonth": 0,
+    "text": "Organize digital folders",
+    "completed": false,
+    "createdAt": "2026-07-08T16:03:34.108Z"
+  },
+  {
+    "_id": "44n547d77mrc9p2zh",
+    "month": "2026-07",
+    "weekOfMonth": 1,
+    "text": "Review budget & expenses",
+    "completed": true,
+    "createdAt": "2026-07-08T16:03:34.109Z"
+  },
+  {
+    "_id": "v9c1l95gemrc9p2zh",
+    "month": "2026-07",
+    "weekOfMonth": 1,
+    "text": "Check progress of habits",
+    "completed": true,
+    "createdAt": "2026-07-08T16:03:34.109Z"
+  },
+  {
+    "_id": "9yde5apovmrc9p2zi",
+    "month": "2026-07",
+    "weekOfMonth": 1,
+    "text": "Mid-month checkpoint",
+    "completed": false,
+    "createdAt": "2026-07-08T16:03:34.110Z"
+  },
+  {
+    "_id": "5f5tf6jxqmrc9p2zj",
+    "month": "2026-07",
+    "weekOfMonth": 2,
+    "text": "Analyze energy levels trends",
+    "completed": false,
+    "createdAt": "2026-07-08T16:03:34.111Z"
+  },
+  {
+    "_id": "1c1fpbq2omrc9p2zj",
+    "month": "2026-07",
+    "weekOfMonth": 2,
+    "text": "Optimize routine/schedule",
+    "completed": false,
+    "createdAt": "2026-07-08T16:03:34.111Z"
+  },
+  {
+    "_id": "wt37dx31nmrc9p2zk",
+    "month": "2026-07",
+    "weekOfMonth": 3,
+    "text": "Begin monthly evaluation",
+    "completed": false,
+    "createdAt": "2026-07-08T16:03:34.112Z"
+  },
+  {
+    "_id": "9ymjce5iomrc9p2zk",
+    "month": "2026-07",
+    "weekOfMonth": 3,
+    "text": "Backup critical system files",
+    "completed": false,
+    "createdAt": "2026-07-08T16:03:34.112Z"
+  }
+]

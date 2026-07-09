@@ -1,0 +1,43 @@
+[
+  {
+    "_id": "00umqkqqpmrb6gtp3",
+    "category": "work",
+    "createdAt": "2026-07-07T21:45:23.799Z"
+  },
+  {
+    "_id": "xqwdib16kmrb6gtp6",
+    "name": "Learn something 🧠",
+    "category": "mind",
+    "createdAt": "2026-07-07T21:45:23.802Z"
+  },
+  {
+    "_id": "q556rios0mrb6gtp7",
+    "name": "Plan top 3 📑",
+    "category": "work",
+    "createdAt": "2026-07-07T21:45:23.803Z"
+  },
+  {
+    "_id": "bqot26vbomrb6gtp9",
+    "name": "Track money 💰",
+    "category": "finance",
+    "createdAt": "2026-07-07T21:45:23.805Z"
+  },
+  {
+    "_id": "sf180u40gmrb6gtpc",
+    "name": "Deep work 💻",
+    "category": "work",
+    "createdAt": "2026-07-07T21:45:23.808Z"
+  },
+  {
+    "_id": "sy5rtkqc8mrb6gtpe",
+    "name": "Alcohol free 🚫🍺",
+    "category": "health",
+    "createdAt": "2026-07-07T21:45:23.810Z"
+  },
+  {
+    "_id": "5q5x6yvwmmrb6gtph",
+    "name": "No socials AM 📵",
+    "category": "routine",
+    "createdAt": "2026-07-07T21:45:23.813Z"
+  }
+]

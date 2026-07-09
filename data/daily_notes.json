@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "a06g78495mrch3hnw",
+    "date": "2026-07-08",
+    "content": "Hoje o dia foi produtivo. Foquei bastante na reestruturação do layout mobile da aplicação e consegui resolver o bug de overflow. Consegui manter a rotina de exercícios físicos também. Amanhã é manter o foco!",
+    "mood": "🚀",
+    "tags": [
+      "produtividade",
+      "estudos",
+      "treino"
+    ],
+    "createdAt": "2026-07-08T19:30:43.628Z"
+  },
+  {
+    "_id": "5u2t3obn9mrch3hnx",
+    "date": "2026-07-07",
+    "content": "Ontem consegui ler um pouco mais antes de dormir. O sono tem melhorado bastante. Preciso beber mais água durante o dia.",
+    "mood": "🧘",
+    "tags": [
+      "saude",
+      "leitura",
+      "rotina"
+    ],
+    "createdAt": "2026-07-08T19:30:43.629Z"
+  },
+  {
+    "_id": "w4xkfglfkmrch3hnx",
+    "date": "2026-07-06",
+    "content": "Dia focado em planejar as metas da semana. Sinto que a organização inicial ajuda muito a diminuir a ansiedade e manter a motivação.",
+    "mood": "🎯",
+    "tags": [
+      "planejamento",
+      "foco"
+    ],
+    "createdAt": "2026-07-08T19:30:43.629Z"
+  }
+]

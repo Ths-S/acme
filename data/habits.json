@@ -1,0 +1,140 @@
+[
+  {
+    "_id": "wl1b7mce7mrca4lds",
+    "name": "Acordar antes de 6:15 ⏰",
+    "category": "manha",
+    "createdAt": "2026-07-08T16:15:37.792Z"
+  },
+  {
+    "_id": "8r471di7imrca4ldt",
+    "name": "Café ☕",
+    "category": "alimentos",
+    "createdAt": "2026-07-08T16:15:37.793Z"
+  },
+  {
+    "_id": "33woqon11mrca4ldv",
+    "name": "Creatina 🧪",
+    "category": "alimentos",
+    "createdAt": "2026-07-08T16:15:37.795Z"
+  },
+  {
+    "_id": "hog6kztpnmrca4ldw",
+    "name": "Remédios 💊",
+    "category": "alimentos",
+    "createdAt": "2026-07-08T16:15:37.796Z"
+  },
+  {
+    "_id": "z5y2l0hs5mrca4ldy",
+    "name": "Pão com Ovo 🍳",
+    "category": "alimentos",
+    "createdAt": "2026-07-08T16:15:37.798Z"
+  },
+  {
+    "_id": "dr9rby2yvmrca4ldy",
+    "name": "Escovar os Dentes 1 🪥",
+    "category": "higiene",
+    "createdAt": "2026-07-08T16:15:37.798Z"
+  },
+  {
+    "_id": "ix5l34drumrca4ldz",
+    "name": "Protetor solar ☀️",
+    "category": "higiene",
+    "createdAt": "2026-07-08T16:15:37.799Z"
+  },
+  {
+    "_id": "ihuvzd5damrca4le0",
+    "name": "Sabonete gel anti acne 🧼",
+    "category": "higiene",
+    "createdAt": "2026-07-08T16:15:37.800Z"
+  },
+  {
+    "_id": "jpg04eluumrca4le1",
+    "name": "Cicatricure Creme Corporal 🧴",
+    "category": "higiene",
+    "createdAt": "2026-07-08T16:15:37.801Z"
+  },
+  {
+    "_id": "autxca7demrca4le1",
+    "name": "Escovar os Dentes 2 🪥",
+    "category": "tarde",
+    "createdAt": "2026-07-08T16:15:37.801Z"
+  },
+  {
+    "_id": "g7js4op5hmrca4le3",
+    "name": "1h de Projeto 💻",
+    "category": "projeto",
+    "createdAt": "2026-07-08T16:15:37.803Z"
+  },
+  {
+    "_id": "350b7w8z3mrca4le3",
+    "name": "Academia 🏋️",
+    "category": "projeto",
+    "createdAt": "2026-07-08T16:15:37.803Z"
+  },
+  {
+    "_id": "aoardl0wemrca4le4",
+    "name": "Banho assim que chegar 🚿",
+    "category": "higiene",
+    "createdAt": "2026-07-08T16:15:37.804Z"
+  },
+  {
+    "_id": "tb1wb7higmrca4le5",
+    "name": "Bio-Oil (depois do último banho) 🧴",
+    "category": "higiene",
+    "createdAt": "2026-07-08T16:15:37.805Z"
+  },
+  {
+    "_id": "om0cy3bzpmrca4le5",
+    "name": "Sabonete gel anti acne (Tarde) 🧼",
+    "category": "higiene",
+    "createdAt": "2026-07-08T16:15:37.805Z"
+  },
+  {
+    "_id": "9zh03f0ntmrca4le6",
+    "name": "Escovar Dentes 3 🪥",
+    "category": "noite",
+    "createdAt": "2026-07-08T16:15:37.806Z"
+  },
+  {
+    "_id": "smxfkcypgmrca4le6",
+    "name": "Meditar 🧘",
+    "category": "noite",
+    "createdAt": "2026-07-08T16:15:37.806Z"
+  },
+  {
+    "_id": "4t2yxp2awmrca4le7",
+    "name": "Anotações e Pesquisas 📝",
+    "category": "noite",
+    "createdAt": "2026-07-08T16:15:37.807Z"
+  },
+  {
+    "_id": "fuqidq57lmrca4le7",
+    "name": "Cenário 🎬",
+    "category": "noite",
+    "createdAt": "2026-07-08T16:15:37.807Z"
+  },
+  {
+    "_id": "jhweyfu3mmrca4le8",
+    "name": "Ir Dormir 21h 😴",
+    "category": "noite",
+    "createdAt": "2026-07-08T16:15:37.808Z"
+  },
+  {
+    "_id": "j1ygdpo0fmrca4le8",
+    "name": "Estar dormindo 22h 💤",
+    "category": "noite",
+    "createdAt": "2026-07-08T16:15:37.808Z"
+  },
+  {
+    "_id": "f8ppqwxrwmrca4le9",
+    "name": "Beber 4 litros de água 💧",
+    "category": "geral",
+    "createdAt": "2026-07-08T16:15:37.809Z"
+  },
+  {
+    "_id": "wqgfzisufmrca4le9",
+    "name": "Sem Vício 🚫",
+    "category": "geral",
+    "createdAt": "2026-07-08T16:15:37.809Z"
+  }
+]

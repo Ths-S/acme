@@ -1,0 +1,61 @@
+[
+  {
+    "_id": "ngkspnblomrc9quau",
+    "category": "higiene",
+    "createdAt": "2026-07-08T16:04:56.166Z"
+  },
+  {
+    "_id": "ajmo2xuebmrc9quau",
+    "name": "Gym or movement 🏋️",
+    "category": "health",
+    "createdAt": "2026-07-08T16:04:56.166Z"
+  },
+  {
+    "_id": "hdwb0dg13mrc9quaw",
+    "name": "Learn something 🧠",
+    "category": "mind",
+    "createdAt": "2026-07-08T16:04:56.168Z"
+  },
+  {
+    "_id": "cpf4b2e0jmrc9quax",
+    "name": "Plan top 3 📑",
+    "category": "work",
+    "createdAt": "2026-07-08T16:04:56.169Z"
+  },
+  {
+    "_id": "gdc9bm4p9mrc9quax",
+    "name": "Track money 💰",
+    "category": "finance",
+    "createdAt": "2026-07-08T16:04:56.169Z"
+  },
+  {
+    "_id": "e5bfqq8v2mrc9quay",
+    "name": "Deep work 💻",
+    "category": "work",
+    "createdAt": "2026-07-08T16:04:56.170Z"
+  },
+  {
+    "_id": "vh6pkm1llmrc9quay",
+    "name": "Alcohol free 🚫🍺",
+    "category": "health",
+    "createdAt": "2026-07-08T16:04:56.170Z"
+  },
+  {
+    "_id": "48o8anbppmrc9quay",
+    "name": "No socials AM 📵",
+    "category": "routine",
+    "createdAt": "2026-07-08T16:04:56.170Z"
+  },
+  {
+    "_id": "w2my722qemrc9quaz",
+    "name": "Journal ✍️",
+    "category": "mind",
+    "createdAt": "2026-07-08T16:04:56.171Z"
+  },
+  {
+    "_id": "21vjdlqv9mrc9quaz",
+    "name": "Cold shower ❄️",
+    "category": "routine",
+    "createdAt": "2026-07-08T16:04:56.171Z"
+  }
+]

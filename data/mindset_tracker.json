@@ -1,0 +1,128 @@
+[
+  {
+    "_id": "svk6bps8smrca4n8g",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 0,
+    "energy": 7,
+    "focus": 8,
+    "motivation": 8,
+    "createdAt": "2026-07-08T16:15:40.192Z"
+  },
+  {
+    "_id": "3d2sx1fjtmrca4n8g",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 1,
+    "energy": 6,
+    "focus": 7,
+    "motivation": 9,
+    "createdAt": "2026-07-08T16:15:40.192Z"
+  },
+  {
+    "_id": "ivxoycr9qmrca4n8h",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 2,
+    "energy": 8,
+    "focus": 8,
+    "motivation": 7,
+    "createdAt": "2026-07-08T16:15:40.193Z"
+  },
+  {
+    "_id": "cpyl68vgomrca4n8h",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 3,
+    "energy": 5,
+    "focus": 7,
+    "motivation": 8,
+    "createdAt": "2026-07-08T16:15:40.193Z"
+  },
+  {
+    "_id": "r2zplg8jlmrca4n8h",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 4,
+    "energy": 7,
+    "focus": 6,
+    "motivation": 7,
+    "createdAt": "2026-07-08T16:15:40.193Z"
+  },
+  {
+    "_id": "5qu3h6lsnmrca4n8i",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 5,
+    "energy": 8,
+    "focus": 9,
+    "motivation": 9,
+    "createdAt": "2026-07-08T16:15:40.194Z"
+  },
+  {
+    "_id": "1brt7fg1hmrca4n8i",
+    "weekStartDate": "2026-01-04",
+    "dayOfWeek": 6,
+    "energy": 9,
+    "focus": 8,
+    "motivation": 9,
+    "createdAt": "2026-07-08T16:15:40.194Z"
+  },
+  {
+    "_id": "cnn9bsefcmrca4n8j",
+    "weekStartDate": "2026-07-05",
+    "dayOfWeek": 0,
+    "energy": 7,
+    "focus": 8,
+    "motivation": 8,
+    "createdAt": "2026-07-08T16:15:40.195Z"
+  },
+  {
+    "_id": "kg50scpvsmrca4n8j",
+    "weekStartDate": "2026-07-05",
+    "dayOfWeek": 1,
+    "energy": 6,
+    "focus": 7,
+    "motivation": 9,
+    "createdAt": "2026-07-08T16:15:40.195Z"
+  },
+  {
+    "_id": "fjwb5bf4pmrca4n8j",
+    "weekStartDate": "2026-07-05",
+    "dayOfWeek": 2,
+    "energy": 8,
+    "focus": 8,
+    "motivation": 7,
+    "createdAt": "2026-07-08T16:15:40.196Z"
+  },
+  {
+    "_id": "to5lse6o4mrca4n8k",
+    "weekStartDate": "2026-07-05",
+    "dayOfWeek": 3,
+    "energy": 5,
+    "focus": 7,
+    "motivation": 8,
+    "createdAt": "2026-07-08T16:15:40.196Z"
+  },
+  {
+    "_id": "ut4fx1ov4mrca4n8k",
+    "weekStartDate": "2026-07-05",
+    "dayOfWeek": 4,
+    "energy": 7,
+    "focus": 6,
+    "motivation": 7,
+    "createdAt": "2026-07-08T16:15:40.196Z"
+  },
+  {
+    "_id": "3ibxobsk8mrca4n8l",
+    "weekStartDate": "2026-07-05",
+    "dayOfWeek": 5,
+    "energy": 8,
+    "focus": 9,
+    "motivation": 9,
+    "createdAt": "2026-07-08T16:15:40.197Z"
+  },
+  {
+    "_id": "rqrc4bo1mmrca4n8x",
+    "weekStartDate": "2026-07-05",
+    "dayOfWeek": 6,
+    "energy": 9,
+    "focus": 8,
+    "motivation": 9,
+    "createdAt": "2026-07-08T16:15:40.209Z"
+  }
+]

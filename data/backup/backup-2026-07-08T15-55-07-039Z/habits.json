@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "p8ocllh88mrc9dysx",
+    "name": "Early start 🌅",
+    "category": "routine",
+    "createdAt": "2026-07-08T15:54:55.473Z"
+  },
+  {
+    "_id": "1brepkp0amrc9dysx",
+    "name": "Gym or movement 🏋️",
+    "category": "health",
+    "createdAt": "2026-07-08T15:54:55.473Z"
+  },
+  {
+    "_id": "ox75vbg2rmrc9dyt0",
+    "name": "Learn something 🧠",
+    "category": "mind",
+    "createdAt": "2026-07-08T15:54:55.476Z"
+  },
+  {
+    "_id": "4pv87xhidmrc9dyt0",
+    "name": "Plan top 3 📑",
+    "category": "work",
+    "createdAt": "2026-07-08T15:54:55.476Z"
+  },
+  {
+    "_id": "gp06aa2qvmrc9dyt1",
+    "name": "Track money 💰",
+    "category": "finance",
+    "createdAt": "2026-07-08T15:54:55.477Z"
+  },
+  {
+    "_id": "ehg99apyjmrc9dyt3",
+    "name": "Deep work 💻",
+    "category": "work",
+    "createdAt": "2026-07-08T15:54:55.479Z"
+  },
+  {
+    "_id": "ubw7lwer3mrc9dyt3",
+    "name": "Alcohol free 🚫🍺",
+    "category": "health",
+    "createdAt": "2026-07-08T15:54:55.479Z"
+  },
+  {
+    "_id": "embvbhv61mrc9dyt5",
+    "name": "No socials AM 📵",
+    "category": "routine",
+    "createdAt": "2026-07-08T15:54:55.481Z"
+  },
+  {
+    "_id": "2g9g53mgwmrc9dyt5",
+    "name": "Journal ✍️",
+    "category": "mind",
+    "createdAt": "2026-07-08T15:54:55.481Z"
+  },
+  {
+    "_id": "hkmkqjd3xmrc9dyt6",
+    "name": "Cold shower ❄️",
+    "category": "routine",
+    "createdAt": "2026-07-08T15:54:55.482Z"
+  }
+]

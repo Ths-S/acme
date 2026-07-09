@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Tracker Dashboards - Habits & Tasks</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>">
+    <link rel="manifest" href="manifest.json">
+    <meta name="description" content="A premium, dark-mode habit and task tracking system powered by NoSQL database and interactive Chart.js visualizations.">
+    <!-- Supabase CDN Client -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <span class="logo-icon"><i class="fa-solid fa-circle-nodes"></i></span>
+                    <span class="logo-text">Agy2 Tracker</span>
+                </div>
+            </div>
+            
+            <nav class="sidebar-nav">
+                <ul>
+                    <li>
+                        <button id="nav-habit-tracker" class="nav-btn active" onclick="switchPage('habit-tracker')">
+                            <i class="fa-regular fa-calendar-check"></i>
+                            <span data-i18n="nav_habits">Habit Tracker</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button id="nav-task-tracker" class="nav-btn" onclick="switchPage('task-tracker')">
+                            <i class="fa-solid fa-list-check"></i>
+                            <span data-i18n="nav_tasks">Task Tracker</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button id="nav-monthly-tracker" class="nav-btn" onclick="switchPage('monthly-tracker')">
+                            <i class="fa-solid fa-calendar-week"></i>
+                            <span data-i18n="nav_monthly">Monthly Tracker</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button id="nav-data-manager" class="nav-btn" onclick="switchPage('data-manager')">
+                            <i class="fa-solid fa-sliders"></i>
+                            <span data-i18n="nav_crud">Manage Data (CRUD)</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button id="nav-relapse-tracker" class="nav-btn" onclick="switchPage('relapse-tracker')">
+                            <i class="fa-solid fa-hourglass-half"></i>
+                            <span data-i18n="nav_sobriety">Sobriety Counter</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button id="nav-focus-canvas" class="nav-btn" onclick="switchPage('focus-canvas')">
+                            <i class="fa-solid fa-shapes"></i>
+                            <span data-i18n="nav_focus_canvas">Focus Canvas</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button id="nav-daily-notes" class="nav-btn" onclick="switchPage('daily-notes')">
+                            <i class="fa-regular fa-note-sticky"></i>
+                            <span data-i18n="nav_daily_notes">Daily Notes</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer" style="display: flex; flex-direction: column; gap: 12px;">
+                <div class="user-profile">
+                    <div class="avatar"><i class="fa-solid fa-user-astronaut"></i></div>
+                    <div class="user-info">
+                        <span class="user-name">User Dashboard</span>
+                        <span class="user-role" data-i18n="user_role">Premium Workspace</span>
+                    </div>
+                </div>
+                <div class="footer-buttons" style="display: flex; gap: 8px; width: 100%;">
+                    <!-- Language Switcher Button -->
+                    <button id="lang-switch-btn" onclick="toggleLanguage()" title="Switch Language / Mudar Idioma" style="flex: 1; background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border-color); color: #fff; padding: 8px; border-radius: 6px; font-size: 11px; cursor: pointer; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; gap: 6px; transition: all 0.2s;">
+                        <i class="fa-solid fa-globe" style="color: var(--primary-blue);"></i>
+                        <span id="lang-btn-text">PT-BR</span>
+                    </button>
+                    <!-- Theme Switcher Button -->
+                    <button id="theme-switch-btn" onclick="toggleTheme()" title="Switch Theme / Mudar Tema" style="flex: 1; background: rgba(255, 255, 255, 0.05); border: 1px solid var(--border-color); color: #fff; padding: 8px; border-radius: 6px; font-size: 11px; cursor: pointer; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; gap: 6px; transition: all 0.2s;">
+                        <i class="fa-solid fa-moon" id="theme-btn-icon" style="color: #eab308;"></i>
+                        <span id="theme-btn-text">Classic</span>
+                    </button>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- 1. HABIT TRACKER PAGE -->
+            <div id="page-habit-tracker" class="dashboard-page active">
+                <header class="page-header">
+                    <div class="header-title">
+                        <div class="month-selector-nav">
+                            <button type="button" class="month-nav-btn" onclick="adjustMonth(-1)" title="Previous Month">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <div class="custom-month-picker" id="habit-month-picker-container">
+                                <button type="button" class="month-picker-trigger" id="habit-month-trigger" onclick="toggleMonthPicker('habit')">
+                                    <h1 id="habit-month-title">January 2026</h1>
+                                    <i class="fa-solid fa-caret-down month-picker-caret"></i>
+                                </button>
+                                <div class="month-picker-dropdown" id="habit-month-dropdown">
+                                    <div class="mpd-year-nav">
+                                        <button type="button" class="mpd-year-btn" onclick="changePickerYear('habit', -1)"><i class="fa-solid fa-chevron-left"></i></button>
+                                        <span class="mpd-year-label" id="habit-picker-year">2026</span>
+                                        <button type="button" class="mpd-year-btn" onclick="changePickerYear('habit', 1)"><i class="fa-solid fa-chevron-right"></i></button>
+                                    </div>
+                                    <div class="mpd-month-grid" id="habit-month-grid">
+                                        <!-- 12 month buttons generated by JS -->
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="month-nav-btn" onclick="adjustMonth(1)" title="Next Month">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <p class="subtitle">- Habit Tracker -</p>
+                    </div>
+                    <div class="header-metrics">
+                        <div class="metric-card">
+                            <span class="metric-label">Number of habits</span>
+                            <span class="metric-value" id="habit-count-value">10</span>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-label">Completed habits</span>
+                            <span class="metric-value" id="habit-completed-value">180</span>
+                        </div>
+                        <div class="metric-card progress-metric">
+                            <span class="metric-label">Progress</span>
+                            <div class="metric-progress-wrapper">
+                                <span class="metric-value" id="habit-progress-percent">58.06%</span>
+                                <div class="progress-bar-container">
+                                    <div class="progress-bar-fill" id="habit-progress-bar" style="width: 58.06%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <div class="dashboard-layout single-column-layout">
+                    <!-- Habit Grid Card (Full Width containing checkboxes and analysis) -->
+                    <section class="dashboard-card" id="my-habits-section">
+                        <div class="card-header">
+                            <h2>My Habits</h2>
+                            <button class="action-btn" onclick="openAddHabitModal()"><i class="fa-solid fa-plus"></i> Add Habit</button>
+                        </div>
+                        
+                        <div class="grid-table-container">
+                            <table class="habit-grid" id="habit-tracker-grid">
+                                <!-- Populated dynamically via script.js -->
+                            </table>
+                        </div>
+                    </section>
+
+                    <!-- Habit line chart (Full Width) -->
+                    <section class="dashboard-card chart-card">
+                        <div class="card-header">
+                            <h2>Habit Progress Trends</h2>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="habitTrendChart"></canvas>
+                        </div>
+                    </section>
+
+                    <!-- Mental State & Analysis side-by-side section -->
+                    <div class="mental-state-row-layout">
+                        <!-- Left Side (Grid + Line Chart) -->
+                        <div class="mental-left-col">
+                            <!-- Mental State Card -->
+                            <section class="dashboard-card" id="mental-state-section">
+                                <div class="grid-table-container">
+                                    <table class="habit-grid mental-grid" id="mental-state-grid">
+                                        <!-- Populated dynamically via script.js -->
+                                    </table>
+                                </div>
+                            </section>
+
+                            <!-- Mental State Line Chart -->
+                            <section class="dashboard-card chart-card" style="margin-top: 24px;">
+                                <div class="card-header">
+                                    <h2>Mood & Motivation Tracker</h2>
+                                </div>
+                                <div class="chart-container">
+                                    <canvas id="mentalTrendChart"></canvas>
+                                </div>
+                            </section>
+                        </div>
+
+                        <!-- Mental State Analysis Card -->
+                        <section class="dashboard-card analysis-card" id="mental-state-analysis-card">
+                            <div class="card-header">
+                                <h2>Analysis</h2>
+                                <p class="card-subtitle">Mindset Scores</p>
+                            </div>
+                            <div class="mindset-analysis-content">
+                                <div class="analysis-subsection">
+                                    <h3>Weekly Mindset Score</h3>
+                                    <div class="analysis-list" id="weekly-mindset-list">
+                                        <!-- Populated dynamically -->
+                                    </div>
+                                </div>
+                                <div class="analysis-subsection chart-sub">
+                                    <h3>Mindset Variables</h3>
+                                    <div class="chart-container-mini">
+                                        <canvas id="mindsetVariablesChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. TASK TRACKER PAGE -->
+            <div id="page-task-tracker" class="dashboard-page">
+                <header class="page-header task-header">
+                    <div class="header-title">
+                        <div class="month-selector-nav">
+                            <button type="button" class="month-nav-btn" onclick="adjustTaskMonth(-1)" title="Previous Month">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <div class="custom-month-picker" id="task-month-picker-container">
+                                <button type="button" class="month-picker-trigger" id="task-month-trigger" onclick="toggleMonthPicker('task')">
+                                    <h1 id="task-month-title">July 2026</h1>
+                                    <i class="fa-solid fa-caret-down month-picker-caret"></i>
+                                </button>
+                                <div class="month-picker-dropdown" id="task-month-dropdown">
+                                    <div class="mpd-year-nav">
+                                        <button type="button" class="mpd-year-btn" onclick="changePickerYear('task', -1)"><i class="fa-solid fa-chevron-left"></i></button>
+                                        <span class="mpd-year-label" id="task-picker-year">2026</span>
+                                        <button type="button" class="mpd-year-btn" onclick="changePickerYear('task', 1)"><i class="fa-solid fa-chevron-right"></i></button>
+                                    </div>
+                                    <div class="mpd-month-grid" id="task-month-grid">
+                                        <!-- 12 month buttons generated by JS -->
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="month-nav-btn" onclick="adjustTaskMonth(1)" title="Next Month">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <p class="subtitle">- Task Tracker -</p>
+                    </div>
+                    
+                    <div class="task-summary-cards">
+                        <!-- Week Selector Card -->
+                        <div class="summary-card week-selector-card">
+                            <div class="summary-card-header">
+                                <h2>Week Selection</h2>
+                            </div>
+                            <div class="week-picker-card-content">
+                                <p class="card-subtitle" style="margin-bottom: 12px; font-size: 11px; line-height: 1.4;">Select the start date for the active week.</p>
+                                <div class="week-picker-container">
+                                    <label for="week-start-date" style="font-size: 10px; text-transform: uppercase; color: var(--text-muted); font-weight: 600; margin-bottom: 4px; display: block;">Week Start Date</label>
+                                    <div class="date-picker-wrapper">
+                                        <input type="date" id="week-start-date" value="2026-01-04" onchange="loadWeeklyTasks()">
+                                        <span class="date-display" id="formatted-week-start">04.01.2026</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Overall Progress Card with Bar & Doughnut Chart -->
+                        <div class="summary-card overall-progress-card">
+                            <div class="summary-card-header">
+                                <h2>Overall Progress</h2>
+                            </div>
+                            <div class="overall-progress-content">
+                                <div class="bar-chart-side">
+                                    <canvas id="weeklyProgressBars"></canvas>
+                                </div>
+                                <div class="radial-gauge-side">
+                                    <div class="radial-gauge-container">
+                                        <svg viewBox="0 0 100 100" class="radial-gauge">
+                                            <circle cx="50" cy="50" r="40" class="gauge-bg" />
+                                            <circle cx="50" cy="50" r="40" class="gauge-fill" id="weekly-gauge-fill" style="stroke-dashoffset: 65.34;" />
+                                        </svg>
+                                        <div class="gauge-label-container">
+                                            <span class="gauge-percentage" id="weekly-gauge-percent">74%</span>
+                                        </div>
+                                    </div>
+                                    <span class="gauge-details" id="weekly-gauge-fraction">32 / 43 Completed</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mindset Tracker Card with line chart -->
+                        <div class="summary-card weekly-mindset-card">
+                            <div class="summary-card-header">
+                                <h2>Mindset Tracker</h2>
+                                <div class="mindset-legend">
+                                    <span class="legend-item energy"><i class="fa-solid fa-circle"></i> Energy</span>
+                                    <span class="legend-item focus"><i class="fa-solid fa-circle"></i> Focus</span>
+                                    <span class="legend-item motivation"><i class="fa-solid fa-circle"></i> Motivation</span>
+                                </div>
+                            </div>
+                            <div class="weekly-mindset-content">
+                                <canvas id="weeklyMindsetChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- Weekly Columns Grid (7 Days) -->
+                <section class="weekly-columns-container">
+                    <div class="weekly-grid" id="weekly-days-grid">
+                        <!-- Columns for each day (Sunday to Saturday) dynamically generated -->
+                    </div>
+                </section>
+            </div>
+
+            <!-- 2.5. MONTHLY TRACKER PAGE -->
+            <div id="page-monthly-tracker" class="dashboard-page">
+                <header class="page-header task-header">
+                    <div class="header-title">
+                        <div class="month-selector-nav">
+                            <button type="button" class="month-nav-btn" onclick="adjustMonthlyTracker(-1)" title="Previous Month">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <div class="custom-month-picker" id="monthly-month-picker-container">
+                                <button type="button" class="month-picker-trigger" id="monthly-month-trigger" onclick="toggleMonthPicker('monthly')">
+                                    <h1 id="monthly-tracker-title">July 2026</h1>
+                                    <i class="fa-solid fa-caret-down month-picker-caret"></i>
+                                </button>
+                                <div class="month-picker-dropdown" id="monthly-month-dropdown">
+                                    <div class="mpd-year-nav">
+                                        <button type="button" class="mpd-year-btn" onclick="changePickerYear('monthly', -1)"><i class="fa-solid fa-chevron-left"></i></button>
+                                        <span class="mpd-year-label" id="monthly-picker-year">2026</span>
+                                        <button type="button" class="mpd-year-btn" onclick="changePickerYear('monthly', 1)"><i class="fa-solid fa-chevron-right"></i></button>
+                                    </div>
+                                    <div class="mpd-month-grid" id="monthly-month-grid">
+                                        <!-- 12 month buttons generated by JS -->
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="month-nav-btn" onclick="adjustMonthlyTracker(1)" title="Next Month">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="task-summary-cards">
+                        <!-- Overall Progress Card -->
+                        <div class="summary-card overall-progress-card">
+                            <div class="summary-card-header">
+                                <h2>Monthly Progress</h2>
+                            </div>
+                            <div class="overall-progress-content">
+                                <div class="bar-chart-side">
+                                    <canvas id="monthlyProgressBars"></canvas>
+                                </div>
+                                <div class="radial-gauge-side">
+                                    <div class="radial-gauge-container">
+                                        <svg viewBox="0 0 100 100" class="radial-gauge">
+                                            <circle cx="50" cy="50" r="40" class="gauge-bg" />
+                                            <circle cx="50" cy="50" r="40" class="gauge-fill monthly-gauge-fill" id="monthly-gauge-fill" style="stroke-dashoffset: 251.2;" />
+                                        </svg>
+                                        <div class="gauge-label-container">
+                                            <span class="gauge-percentage" id="monthly-gauge-percent">0%</span>
+                                        </div>
+                                    </div>
+                                    <span class="gauge-details" id="monthly-gauge-fraction">0 / 0 Completed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- Monthly Weeks Columns Grid -->
+                <section class="weekly-columns-container monthly-columns-container">
+                    <div class="monthly-weeks-grid" id="monthly-weeks-grid">
+                        <!-- Columns for each week (Week 1 to Week 5) dynamically generated -->
+                    </div>
+                </section>
+            </div>
+
+            <!-- 3. DATA MANAGER (CRUD) PAGE -->
+            <div id="page-data-manager" class="dashboard-page">
+                <header class="page-header">
+                    <div class="header-title">
+                        <h1>Data Manager (CRUD)</h1>
+                        <p class="subtitle">- System Logs Database -</p>
+                    </div>
+                    <div class="data-actions-container" style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+                        <button class="action-btn" onclick="clearAllData()" style="padding: 8px 16px; font-size: 13px; font-weight: 700; background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.25); color: #f87171; border-radius: 6px; cursor: pointer; transition: all 0.2s; display: inline-flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-trash-can"></i>
+                            <span>Clear & Backup Data</span>
+                        </button>
+                        <button class="action-btn" onclick="seedTestData()" style="padding: 8px 16px; font-size: 13px; font-weight: 700; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.25); color: #34d399; border-radius: 6px; cursor: pointer; transition: all 0.2s; display: inline-flex; align-items: center; gap: 8px;">
+                            <i class="fa-solid fa-flask"></i>
+                            <span>Seed Test Data</span>
+                        </button>
+                    </div>
+                </header>
+
+                <div class="dashboard-layout single-column-layout">
+                    <!-- Supabase Cloud Sync Settings Card -->
+                    <section class="dashboard-card" style="border-top: 4px solid #a855f7;">
+                        <div class="card-header" style="margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px;">
+                            <div>
+                                <h2 style="font-size: 16px; font-weight: 700; color: #ffffff;" data-i18n="supabase_sync_title">Supabase Cloud Sync</h2>
+                                <p class="card-subtitle" style="font-size: 11px;" data-i18n="supabase_sync_subtitle">Sincronize seus dados localmente no navegador e entre dispositivos sem precisar de servidor local.</p>
+                            </div>
+                            <span id="supabase-sync-status" class="category-badge" style="border-radius: 4px; font-size: 10px; font-weight: 700; padding: 4px 8px; background-color: rgba(239, 68, 68, 0.15); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3);">Desconectado</span>
+                        </div>
+                        <div style="display: flex; gap: 16px; flex-wrap: wrap; align-items: flex-end; width: 100%;">
+                            <div style="display: flex; flex-direction: column; gap: 6px; flex: 1.5; min-width: 240px;">
+                                <label style="font-size: 11px; font-weight: 600; color: var(--text-secondary);">Supabase Project URL</label>
+                                <input type="text" id="supabase-url-input" placeholder="https://your-project.supabase.co" class="inline-crud-input" style="padding: 10px !important;">
+                            </div>
+                            <div style="display: flex; flex-direction: column; gap: 6px; flex: 2; min-width: 240px;">
+                                <label style="font-size: 11px; font-weight: 600; color: var(--text-secondary);">Supabase Anon Key</label>
+                                <input type="password" id="supabase-key-input" placeholder="eyJhbGciOiJIUzI1NiIsIn..." class="inline-crud-input" style="padding: 10px !important;">
+                            </div>
+                            <div style="display: flex; gap: 8px;">
+                                <button class="action-btn" onclick="saveSupabaseConfig()" style="padding: 10px 18px; font-weight: 700;">
+                                    <i class="fa-solid fa-cloud-arrow-up" style="margin-right: 6px;"></i> Conectar
+                                </button>
+                                <button class="action-btn" onclick="clearSupabaseConfig()" style="padding: 10px 18px; font-weight: 700; background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.25); color: #f87171;">
+                                    Desconectar
+                                </button>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="dashboard-card" style="border-top: 4px solid var(--primary-blue);">
+                        <div class="card-header border-bottom" style="margin-bottom: 24px; padding-bottom: 12px; border-bottom: 1px solid var(--border-color); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+                            <div class="crud-tabs" style="display: flex; gap: 12px;">
+                                <button id="tab-btn-habits" class="crud-tab-btn active" onclick="switchCrudTab('habits')">Habits</button>
+                                <button id="tab-btn-tasks" class="crud-tab-btn" onclick="switchCrudTab('tasks')">Tasks</button>
+                                <button id="tab-btn-mental" class="crud-tab-btn" onclick="switchCrudTab('mental')">Mental State</button>
+                            </div>
+                        </div>
+
+                        <!-- Habits CRUD Section -->
+                        <div id="crud-habits" class="crud-tab-content">
+                            <div class="crud-filters" style="display: flex; gap: 12px; align-items: center; margin-bottom: 20px; flex-wrap: wrap;">
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <i class="fa-solid fa-magnifying-glass" style="color: var(--text-muted); font-size: 13px;"></i>
+                                    <input type="text" id="filter-habits-name" placeholder="Search habits by name..." oninput="loadCrudHabits()" class="inline-crud-input" style="max-width: 250px;">
+                                </div>
+                                <select id="filter-habits-cat" onchange="loadCrudHabits()" class="inline-crud-select" style="max-width: 160px;">
+                                    <option value="">All Categories</option>
+                                    <option value="manha">Morning</option>
+                                    <option value="alimentos">Nutrition</option>
+                                    <option value="higiene">Hygiene</option>
+                                    <option value="tarde">Afternoon</option>
+                                    <option value="projeto">Projects</option>
+                                    <option value="noite">Evening</option>
+                                    <option value="geral">General</option>
+                                </select>
+                            </div>
+                            <div class="grid-table-container">
+                                <table class="habit-grid crud-grid" style="width: 100%; border-collapse: collapse;">
+                                    <thead>
+                                        <tr style="background-color: var(--bg-card-header);">
+                                            <th style="padding: 12px; text-align: left; font-weight: 600; border-bottom: 1px solid var(--border-color); color: var(--text-primary);">Habit Name</th>
+                                            <th style="padding: 12px; text-align: left; font-weight: 600; border-bottom: 1px solid var(--border-color); color: var(--text-primary); width: 220px;">Category</th>
+                                            <th style="padding: 12px; text-align: center; font-weight: 600; border-bottom: 1px solid var(--border-color); color: var(--text-primary); width: 140px;">Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="crud-habits-tbody">
+                                        <!-- Loaded dynamically -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- Tasks CRUD Section -->
+                        <div id="crud-tasks" class="crud-tab-content" style="display: none;">
+                            <div class="crud-filters" style="display: flex; gap: 12px; align-items: center; margin-bottom: 20px; flex-wrap: wrap;">
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <label for="crud-task-week" style="font-size: 12px; color: var(--text-muted); font-weight: 600; white-space: nowrap;">Week Starting:</label>
+                                    <input type="date" id="crud-task-week" value="2026-01-04" onchange="loadCrudTasks()" style="background-color: #0b0f19; border: 1px solid var(--border-color); color: #fff; padding: 8px 12px; font-size: 12px; border-radius: 4px; font-family: inherit;">
+                                </div>
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <i class="fa-solid fa-magnifying-glass" style="color: var(--text-muted); font-size: 13px;"></i>
+                                    <input type="text" id="filter-tasks-text" placeholder="Search tasks..." oninput="loadCrudTasks()" class="inline-crud-input" style="max-width: 250px;">
+                                </div>
+                                <select id="filter-tasks-status" onchange="loadCrudTasks()" class="inline-crud-select" style="max-width: 160px;">
+                                    <option value="">All Statuses</option>
+                                    <option value="completed">Completed</option>
+                                    <option value="pending">Pending</option>
+                                </select>
+                            </div>
+                            <div class="grid-table-container">
+                                <table class="habit-grid crud-grid" style="width: 100%; border-collapse: collapse;">
+                                    <thead>
+                                        <tr style="background-color: var(--bg-card-header);">
+                                            <th style="padding: 12px; text-align: left; font-weight: 600; border-bottom: 1px solid var(--border-color); color: var(--text-primary);">Task Text</th>
+                                            <th style="padding: 12px; text-align: left; font-weight: 600; border-bottom: 1px solid var(--border-color); color: var(--text-primary); width: 150px;">Day of Week</th>
+                                            <th style="padding: 12px; text-align: left; font-weight: 600; border-bottom: 1px solid var(--border-color); color: var(--text-primary); width: 80px;">Color</th>
+                                            <th style="padding: 12px; text-align: left; font-weight: 600; border-bottom: 1px solid var(--border-color); color: var(--text-primary); width: 90px;">Status</th>
+                                            <th style="padding: 12px; text-align: center; font-weight: 600; border-bottom: 1px solid var(--border-color); color: var(--text-primary); width: 140px;">Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="crud-tasks-tbody">
+                                        <!-- Loaded dynamically -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!-- Mental State CRUD Section -->
+                        <div id="crud-mental" class="crud-tab-content" style="display: none;">
+                            <div class="crud-filters" style="display: flex; gap: 12px; align-items: center; margin-bottom: 20px; flex-wrap: wrap;">
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <label for="crud-mental-month" style="font-size: 12px; color: var(--text-muted); font-weight: 600; white-space: nowrap;">Month:</label>
+                                    <input type="month" id="crud-mental-month" value="2026-01" onchange="loadCrudMental()" style="background-color: #0b0f19; border: 1px solid var(--border-color); color: #fff; padding: 8px 12px; font-size: 12px; border-radius: 4px; font-family: inherit;">
+                                </div>
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <input type="number" id="filter-mental-mood" placeholder="Min Mood (1-10)" min="1" max="10" oninput="loadCrudMental()" class="inline-crud-input-number" style="max-width: 140px; width: 140px !important;">
+                                </div>
+                                <div style="display: flex; align-items: center; gap: 8px;">
+                                    <input type="number" id="filter-mental-motiv" placeholder="Min Motiv (1-10)" min="1" max="10" oninput="loadCrudMental()" class="inline-crud-input-number" style="max-width: 140px; width: 140px !important;">
+                                </div>
+                            </div>
+                            <div class="grid-table-container">
+                                <table class="habit-grid crud-grid" style="width: 100%; border-collapse: collapse;">
+                                    <thead>
+                                        <tr style="background-color: var(--bg-card-header);">
+                                            <th style="padding: 12px; text-align: left; font-weight: 600; border-bottom: 1px solid var(--border-color); color: var(--text-primary);">Date</th>
+                                            <th style="padding: 12px; text-align: left; font-weight: 600; border-bottom: 1px solid var(--border-color); color: var(--text-primary); width: 180px;">Mood (1-10)</th>
+                                            <th style="padding: 12px; text-align: left; font-weight: 600; border-bottom: 1px solid var(--border-color); color: var(--text-primary); width: 180px;">Motivation (1-10)</th>
+                                            <th style="padding: 12px; text-align: center; font-weight: 600; border-bottom: 1px solid var(--border-color); color: var(--text-primary); width: 140px;">Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="crud-mental-tbody">
+                                        <!-- Loaded dynamically -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- 4. SOBRIETY COUNTER PAGE -->
+            <div id="page-relapse-tracker" class="dashboard-page">
+                <header class="page-header">
+                    <div class="header-title">
+                        <h1>Sobriety Counter</h1>
+                        <p class="subtitle">- Time Since Last Relapse -</p>
+                    </div>
+                </header>
+
+                <div class="dashboard-layout" style="display: grid; grid-template-columns: 2fr 1.2fr; gap: 24px; align-items: start;">
+                    
+                    <!-- Left Side: Counter & Actions -->
+                    <div style="display: flex; flex-direction: column; gap: 24px;">
+                        
+                        <!-- Main Ticking Timer Card -->
+                        <div class="dashboard-card" style="border-top: 4px solid var(--primary-blue); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 40px 24px;">
+                            <div class="card-header" style="margin-bottom: 24px; text-align: center; width: 100%;">
+                                <h2 style="font-size: 20px; font-weight: 700; color: #ffffff;">Time Since Last Fall</h2>
+                            </div>
+                            
+                            <!-- Big Running Digital Clock (HH:MM:SS) -->
+                            <div id="big-digital-clock" style="font-size: 72px; font-weight: 800; color: #ffffff; text-align: center; font-family: 'Outfit', sans-serif; letter-spacing: 4px; margin-bottom: 30px; text-shadow: 0 0 30px rgba(59, 130, 246, 0.4);">
+                                00:00:00
+                            </div>
+                            
+                            <!-- 4 total variables below the clock -->
+                            <div class="counter-variables-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; width: 100%; margin-bottom: 12px;">
+                                <!-- Days -->
+                                <div style="background: rgba(59, 130, 246, 0.03); border: 1px solid rgba(59, 130, 246, 0.15); border-radius: 8px; padding: 16px; text-align: center;">
+                                    <div id="counter-days" style="font-size: 28px; font-weight: 800; color: #ffffff; font-family: 'Outfit', sans-serif;">0</div>
+                                    <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-muted); margin-top: 6px; font-weight: 700;">Total Days</div>
+                                </div>
+                                <!-- Hours -->
+                                <div style="background: rgba(168, 85, 247, 0.03); border: 1px solid rgba(168, 85, 247, 0.15); border-radius: 8px; padding: 16px; text-align: center;">
+                                    <div id="counter-hours" style="font-size: 28px; font-weight: 800; color: #ffffff; font-family: 'Outfit', sans-serif;">0</div>
+                                    <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-muted); margin-top: 6px; font-weight: 700;">Total Hours</div>
+                                </div>
+                                <!-- Minutes -->
+                                <div style="background: rgba(20, 184, 166, 0.03); border: 1px solid rgba(20, 184, 166, 0.15); border-radius: 8px; padding: 16px; text-align: center;">
+                                    <div id="counter-minutes" style="font-size: 28px; font-weight: 800; color: #ffffff; font-family: 'Outfit', sans-serif;">0</div>
+                                    <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-muted); margin-top: 6px; font-weight: 700;">Total Minutes</div>
+                                </div>
+                                <!-- Seconds -->
+                                <div style="background: rgba(244, 63, 94, 0.03); border: 1px solid rgba(244, 63, 94, 0.15); border-radius: 8px; padding: 16px; text-align: center;">
+                                    <div id="counter-seconds" style="font-size: 28px; font-weight: 800; color: #ffffff; font-family: 'Outfit', sans-serif;">0</div>
+                                    <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-muted); margin-top: 6px; font-weight: 700;">Total Seconds</div>
+                                </div>
+                            </div>
+                            
+                            <!-- Primary Buttons -->
+                            <div style="display: flex; gap: 16px; justify-content: center; width: 100%; flex-wrap: wrap; margin-top: 24px;">
+                                <button class="action-btn" onclick="registerRelapseNow()" style="background-color: var(--primary-red); border-color: rgba(244, 63, 94, 0.2); padding: 12px 28px; font-size: 14px; font-weight: 700;">
+                                    <i class="fa-solid fa-fire-flame-simple" style="margin-right: 8px;"></i> I Relapsed Just Now!
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Manual Relapse Logging Form -->
+                        <div class="dashboard-card" style="border-top: 4px solid var(--text-muted);">
+                            <div class="card-header" style="margin-bottom: 20px;">
+                                <h2>Log Relapse Manually</h2>
+                                <p class="card-subtitle">Did you relapse at a past date or time? Register it here.</p>
+                            </div>
+                            <form id="manual-relapse-form" onsubmit="submitManualRelapse(event)" style="display: flex; gap: 16px; align-items: flex-end; flex-wrap: wrap;">
+                                <div style="display: flex; flex-direction: column; gap: 8px; flex: 1; min-width: 200px;">
+                                    <label for="manual-relapse-datetime" style="font-size: 12px; color: var(--text-muted); font-weight: 600;">Relapse Date & Time:</label>
+                                    <input type="datetime-local" id="manual-relapse-datetime" required class="inline-crud-input" style="padding: 10px !important;">
+                                </div>
+                                <button type="submit" class="action-btn" style="padding: 10px 24px; font-weight: 700;">
+                                    <i class="fa-solid fa-calendar-plus" style="margin-right: 8px;"></i> Save Past Relapse
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Right Side: Stats & History -->
+                    <div style="display: flex; flex-direction: column; gap: 24px;">
+                        
+                        <!-- Streak Statistics Card -->
+                        <div class="dashboard-card" style="border-top: 4px solid #a855f7;">
+                            <div class="card-header" style="margin-bottom: 20px;">
+                                <h2>Streak Stats</h2>
+                            </div>
+                            <div style="display: flex; flex-direction: column; gap: 16px;">
+                                <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-color); padding-bottom: 12px;">
+                                    <span style="color: var(--text-secondary); font-size: 13px;">Current Streak:</span>
+                                    <span id="stat-current-streak" style="color: #ffffff; font-weight: 700; font-size: 14px;">0 days</span>
+                                </div>
+                                <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-color); padding-bottom: 12px;">
+                                    <span style="color: var(--text-secondary); font-size: 13px;">Longest Streak:</span>
+                                    <span id="stat-longest-streak" style="color: #a855f7; font-weight: 700; font-size: 14px;">0 days</span>
+                                </div>
+                                <div style="display: flex; justify-content: space-between; padding-bottom: 4px;">
+                                    <span style="color: var(--text-secondary); font-size: 13px;">Average Streak:</span>
+                                    <span id="stat-average-streak" style="color: var(--primary-blue); font-weight: 700; font-size: 14px;">0 days</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Relapse History Card -->
+                        <div class="dashboard-card" style="border-top: 4px solid var(--primary-red);">
+                            <div class="card-header" style="margin-bottom: 20px;">
+                                <h2>Relapse History</h2>
+                            </div>
+                            <div style="max-height: 250px; overflow-y: auto; padding-right: 4px;">
+                                <table style="width: 100%; border-collapse: collapse; font-size: 12px;">
+                                    <thead>
+                                        <tr style="border-bottom: 1px solid var(--border-color); text-align: left; color: var(--text-secondary);">
+                                            <th style="padding: 8px 4px; font-weight: 600;">Date</th>
+                                            <th style="padding: 8px 4px; font-weight: 600; text-align: center;">Duration</th>
+                                            <th style="padding: 8px 4px; font-weight: 600; text-align: center;">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="relapse-history-tbody">
+                                        <!-- Loaded dynamically -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. FOCUS CANVAS PAGE -->
+            <div id="page-focus-canvas" class="dashboard-page" style="height: calc(100vh - 60px); flex-direction: column; overflow: hidden; padding: 0; position: relative;">
+                
+                <!-- Floating Minimal Logo / Title -->
+                <div style="position: absolute; top: 20px; left: 20px; z-index: 1000; font-family: 'Outfit', sans-serif; font-size: 24px; font-weight: 800; color: #fff; letter-spacing: -0.5px; text-shadow: 0 2px 10px rgba(0,0,0,0.5); pointer-events: none; user-select: none;">
+                    flocus <span style="font-weight: 300; font-size: 14px; opacity: 0.7;">canvas</span>
+                </div>
+
+                <!-- Canvas Viewport -->
+                <div id="focus-canvas-area" style="flex: 1; min-height: 0; position: relative; overflow: hidden; padding: 0; cursor: default; width: 100%; height: 100%;">
+                    
+                    <!-- Infinite/Huge Canvas Wrapper (Zoom & Pan applied here) -->
+                    <div id="canvas-content-wrapper" style="position: absolute; width: 6000px; height: 6000px; left: calc(50% - 3000px); top: calc(50% - 3000px); background: radial-gradient(circle, rgba(255,255,255,0.06) 1.5px, transparent 1.5px); background-size: 30px 30px; transform-origin: center center; will-change: transform; transition: none;">
+                        
+                        <!-- 1. Central Clock & Greeting (Aesthetic Background of Canvas) -->
+                        <div class="canvas-bg-clock-container" style="position: absolute; top: 3000px; left: 3000px; transform: translate(-50%, -50%); text-align: center; pointer-events: none; user-select: none; z-index: 1;">
+                            <div id="canvas-greeting" class="editable-canvas-text" style="font-size: 20px; font-weight: 600; color: rgba(255,255,255,0.85); margin-bottom: 12px; font-family: 'Outfit', sans-serif; pointer-events: auto; cursor: pointer; text-shadow: 0 2px 10px rgba(0,0,0,0.6);" title="Double click to edit greeting">Halfway to the weekend, Ths.S! Make it count.</div>
+                            <div id="canvas-clock" style="font-size: 130px; font-weight: 800; color: #fff; font-family: 'Outfit', sans-serif; line-height: 1; letter-spacing: -2px; text-shadow: 0 4px 30px rgba(0,0,0,0.7);">09:54</div>
+                        </div>
+
+                        <!-- 2. Quote Widget (Aesthetic Background of Canvas) -->
+                        <div class="canvas-quote-container" style="position: absolute; top: 2780px; left: 3000px; transform: translate(-50%, -50%); text-align: center; pointer-events: auto; z-index: 1; max-width: 500px;">
+                            <div id="canvas-quote" class="editable-canvas-text" style="font-size: 14px; font-style: italic; color: rgba(255,255,255,0.9); font-weight: 500; font-family: 'Outfit', sans-serif; cursor: pointer; text-shadow: 0 2px 8px rgba(0,0,0,0.6);" title="Double click to edit quote">"You only fail when you stop trying"</div>
+                        </div>
+
+                        <!-- 3. TIMER WIDGET -->
+                        <div id="widget-timer" class="widget focus-widget" style="width: 320px; position: absolute; left: 2650px; top: 2750px; display: flex; flex-direction: column;">
+                            <div class="widget-header" style="background: rgba(255,255,255,0.02); padding: 10px 14px; border-bottom: 1px solid rgba(255,255,255,0.05); display: flex; justify-content: space-between; align-items: center; cursor: move; user-select: none;">
+                                <span style="font-weight: 700; font-size: 13px; color: #fff; letter-spacing: 0.5px; display: inline-flex; align-items: center; gap: 8px;">
+                                    <i class="fa-solid fa-clock" style="color: var(--primary-blue);"></i>
+                                    <span data-i18n="widget_timer_title">Focus Timer</span>
+                                </span>
+                                <i class="fa-solid fa-grip-vertical" style="color: var(--text-muted); font-size: 12px;"></i>
+                            </div>
+                            <div class="widget-body" style="padding: 16px; display: flex; flex-direction: column; align-items: center; gap: 14px;">
+                                <div class="timer-mode-tabs" style="display: flex; gap: 4px; background: rgba(0,0,0,0.2); padding: 3px; border-radius: 6px; width: 100%;">
+                                    <button onclick="setTimerMode('pomodoro')" class="timer-tab active" id="tab-pomo" style="flex: 1; border: none; background: none; color: #fff; font-size: 11px; padding: 6px; border-radius: 4px; cursor: pointer; font-weight: 600; transition: all 0.2s;">Pomo</button>
+                                    <button onclick="setTimerMode('short')" class="timer-tab" id="tab-short" style="flex: 1; border: none; background: none; color: var(--text-muted); font-size: 11px; padding: 6px; border-radius: 4px; cursor: pointer; font-weight: 600; transition: all 0.2s;">Break</button>
+                                    <button onclick="setTimerMode('stopwatch')" class="timer-tab" id="tab-stopwatch" style="flex: 1; border: none; background: none; color: var(--text-muted); font-size: 11px; padding: 6px; border-radius: 4px; cursor: pointer; font-weight: 600; transition: all 0.2s;">Stopwatch</button>
+                                </div>
+                                <div id="focus-clock-display" style="font-size: 48px; font-weight: 800; color: #fff; font-family: 'Outfit', sans-serif; letter-spacing: 1px; text-shadow: 0 0 15px rgba(59, 130, 246, 0.3); margin: 10px 0;">
+                                    25:00
+                                </div>
+                                <div style="display: flex; gap: 12px; width: 100%;">
+                                    <button id="focus-timer-play-btn" onclick="toggleFocusTimer()" class="action-btn" style="flex: 2; padding: 10px; display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-size: 13px; font-weight: 700; background: var(--primary-blue); color: #fff; border: none; border-radius: 6px; cursor: pointer; transition: all 0.2s;">
+                                        <i class="fa-solid fa-play"></i> Start
+                                    </button>
+                                    <button onclick="resetFocusTimer()" class="action-btn" style="flex: 1; padding: 10px; display: inline-flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700; background: rgba(255,255,255,0.05); color: #fff; border: 1px solid var(--border-color); border-radius: 6px; cursor: pointer; transition: all 0.2s;">
+                                        Reset
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 4. STICKY NOTES WIDGET -->
+                        <div id="widget-notes" class="widget focus-widget" style="width: 280px; position: absolute; left: 3070px; top: 2750px; display: flex; flex-direction: column;">
+                            <div class="widget-header" style="background: rgba(254, 240, 138, 0.1); padding: 10px 14px; border-bottom: 1px solid rgba(254, 240, 138, 0.15); display: flex; justify-content: space-between; align-items: center; cursor: move; user-select: none;">
+                                <span style="font-weight: 700; font-size: 13px; color: #fef08a; letter-spacing: 0.5px; display: inline-flex; align-items: center; gap: 8px;">
+                                    <i class="fa-solid fa-note-sticky"></i>
+                                    <span data-i18n="widget_notes_title">Sticky Note</span>
+                                </span>
+                                <i class="fa-solid fa-grip-vertical" style="color: rgba(254, 240, 138, 0.5); font-size: 12px;"></i>
+                            </div>
+                            <div class="widget-body" style="padding: 12px; display: flex; flex-direction: column; gap: 10px;">
+                                <textarea id="sticky-note-textarea" oninput="saveStickyNote()" placeholder="Write notes here..." style="width: 100%; height: 120px; background: transparent; border: none; resize: none; color: #fff; font-family: inherit; font-size: 13px; line-height: 1.5; outline: none;"></textarea>
+                                <div class="color-selectors" style="display: flex; gap: 6px; justify-content: flex-end;">
+                                    <button onclick="setStickyColor('#fef08a')" style="width: 16px; height: 16px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.2); background: #fef08a; cursor: pointer; padding: 0;"></button>
+                                    <button onclick="setStickyColor('#93c5fd')" style="width: 16px; height: 16px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.2); background: #93c5fd; cursor: pointer; padding: 0;"></button>
+                                    <button onclick="setStickyColor('#86efac')" style="width: 16px; height: 16px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.2); background: #86efac; cursor: pointer; padding: 0;"></button>
+                                    <button onclick="setStickyColor('#fbcfe8')" style="width: 16px; height: 16px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.2); background: #fbcfe8; cursor: pointer; padding: 0;"></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 5. MEDIA INTEGRATION WIDGET -->
+                        <div id="widget-media" class="widget focus-widget" style="width: 340px; position: absolute; left: 3070px; top: 2970px; display: flex; flex-direction: column;">
+                            <div class="widget-header" style="background: rgba(255,255,255,0.02); padding: 10px 14px; border-bottom: 1px solid rgba(255,255,255,0.05); display: flex; justify-content: space-between; align-items: center; cursor: move; user-select: none;">
+                                <span style="font-weight: 700; font-size: 13px; color: #fff; letter-spacing: 0.5px; display: inline-flex; align-items: center; gap: 8px;">
+                                    <i class="fa-solid fa-music" style="color: #10b981;"></i>
+                                    <span data-i18n="widget_media_title">Ambient Player</span>
+                                </span>
+                                <i class="fa-solid fa-grip-vertical" style="color: var(--text-muted); font-size: 12px;"></i>
+                            </div>
+                            <div class="widget-body" style="padding: 12px; display: flex; flex-direction: column; gap: 10px;">
+                                <div style="display: flex; gap: 6px;">
+                                    <input type="text" id="media-embed-url" placeholder="Paste YouTube/Spotify link..." style="flex: 1; background: rgba(0,0,0,0.3); border: 1px solid var(--border-color); border-radius: 4px; padding: 6px 10px; font-size: 12px; color: #fff; outline: none;">
+                                    <button onclick="loadMediaUrl()" style="background: #10b981; color: #fff; border: none; border-radius: 4px; padding: 6px 10px; font-size: 12px; cursor: pointer; font-weight: 700;">Load</button>
+                                </div>
+                                <div id="media-player-container" style="width: 100%; height: 160px; background: rgba(0,0,0,0.4); border-radius: 6px; overflow: hidden; display: flex; align-items: center; justify-content: center;">
+                                    <iframe id="media-iframe" src="https://www.youtube.com/embed/jfKfPfyJRdk" style="width: 100%; height: 100%; border: none;" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 6. FOCUS TASKS WIDGET -->
+                        <div id="widget-tasks" class="widget focus-widget" style="width: 300px; position: absolute; left: 2650px; top: 2970px; display: flex; flex-direction: column;">
+                            <div class="widget-header" style="background: rgba(255,255,255,0.02); padding: 10px 14px; border-bottom: 1px solid rgba(255,255,255,0.05); display: flex; justify-content: space-between; align-items: center; cursor: move; user-select: none;">
+                                <span style="font-weight: 700; font-size: 13px; color: #fff; letter-spacing: 0.5px; display: inline-flex; align-items: center; gap: 8px;">
+                                    <i class="fa-solid fa-list-check" style="color: #a855f7;"></i>
+                                    <span data-i18n="widget_tasks_title">Canvas Tasks</span>
+                                </span>
+                                <i class="fa-solid fa-grip-vertical" style="color: var(--text-muted); font-size: 12px;"></i>
+                            </div>
+                            <div class="widget-body" style="padding: 12px; display: flex; flex-direction: column; gap: 10px;">
+                                <div style="max-height: 140px; overflow-y: auto; display: flex; flex-direction: column; gap: 6px;" id="canvas-todo-items">
+                                    <!-- Loaded dynamically -->
+                                </div>
+                                <form onsubmit="addCanvasTodo(event)" style="display: flex; gap: 6px; margin-top: 4px;">
+                                    <input type="text" id="new-canvas-todo-input" placeholder="Quick task..." required style="flex: 1; background: rgba(0,0,0,0.3); border: 1px solid var(--border-color); border-radius: 4px; padding: 6px 10px; font-size: 12px; color: #fff; outline: none;">
+                                    <button type="submit" style="background: #a855f7; color: #fff; border: none; border-radius: 4px; padding: 6px 12px; font-size: 12px; cursor: pointer; font-weight: 700;">+</button>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Floating Translucent Bottom Toolbar (Obsidian style) -->
+                <div class="canvas-dock" style="position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 16px; background: rgba(11, 15, 25, 0.6); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 99px; padding: 8px 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.5); z-index: 1000; transition: all 0.3s ease;">
+                    <!-- Left Section: Add Widgets -->
+                    <div style="display: flex; align-items: center; gap: 10px; border-right: 1px solid rgba(255,255,255,0.1); padding-right: 14px;">
+                        <button class="dock-btn" onclick="toggleWidget('widget-tasks')" title="Toggle Tasks Widget" style="background: none; border: none; color: #a855f7; font-size: 15px; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; transition: all 0.2s;"><i class="fa-solid fa-list-check"></i></button>
+                        <button class="dock-btn" onclick="toggleWidget('widget-notes')" title="Toggle Sticky Note" style="background: none; border: none; color: #fef08a; font-size: 15px; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; transition: all 0.2s;"><i class="fa-solid fa-note-sticky"></i></button>
+                        <button class="dock-btn" onclick="toggleWidget('widget-media')" title="Toggle Ambient Player" style="background: none; border: none; color: #10b981; font-size: 15px; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; transition: all 0.2s;"><i class="fa-solid fa-music"></i></button>
+                        <button class="dock-btn" onclick="toggleWidget('widget-timer')" title="Toggle Timer Widget" style="background: none; border: none; color: var(--primary-blue); font-size: 15px; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; transition: all 0.2s;"><i class="fa-solid fa-clock"></i></button>
+                    </div>
+                    
+                    <!-- Middle Section: Zoom Controls -->
+                    <div style="display: flex; align-items: center; gap: 10px; border-right: 1px solid rgba(255,255,255,0.1); padding-right: 14px;">
+                        <button class="dock-btn" onclick="zoomCanvas(0.1)" title="Zoom In" style="background: none; border: none; color: #fff; font-size: 14px; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; transition: all 0.2s;"><i class="fa-solid fa-magnifying-glass-plus"></i></button>
+                        <span id="canvas-zoom-display" style="color: rgba(255,255,255,0.7); font-size: 11px; font-weight: 700; min-width: 38px; text-align: center; font-family: monospace;">100%</span>
+                        <button class="dock-btn" onclick="zoomCanvas(-0.1)" title="Zoom Out" style="background: none; border: none; color: #fff; font-size: 14px; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; transition: all 0.2s;"><i class="fa-solid fa-magnifying-glass-minus"></i></button>
+                        <button class="dock-btn" onclick="resetZoom()" title="Reset Zoom" style="background: none; border: none; color: #fff; font-size: 13px; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; transition: all 0.2s;"><i class="fa-solid fa-expand"></i></button>
+                        <button class="dock-btn" onclick="resetCanvasLayout()" title="Reset Layout" style="background: none; border: none; color: #fff; font-size: 13px; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; transition: all 0.2s;"><i class="fa-solid fa-arrows-rotate"></i></button>
+                    </div>
+
+                    <!-- Right Section: Background Picker -->
+                    <div style="position: relative; display: flex; align-items: center;">
+                        <button class="dock-btn" id="bg-picker-trigger" onclick="toggleBgPicker()" title="Choose Background Image" style="background: none; border: none; color: #fb7185; font-size: 15px; cursor: pointer; display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; transition: all 0.2s;"><i class="fa-solid fa-image"></i></button>
+                        
+                        <!-- Popover -->
+                        <div id="bg-picker-popover" style="display: none; position: absolute; bottom: 50px; right: -10px; background: rgba(11, 15, 25, 0.95); backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.12); border-radius: 12px; padding: 12px; width: 220px; box-shadow: 0 10px 30px rgba(0,0,0,0.6); z-index: 1100; flex-direction: column; gap: 8px;">
+                            <span style="font-size: 10px; font-weight: 700; color: rgba(255,255,255,0.6); text-transform: uppercase; margin-bottom: 4px; display: block;">Select Background</span>
+                            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px;" id="bg-options-grid">
+                                <!-- Loaded dynamically via JS -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 7. DAILY NOTES PAGE -->
+            <div id="page-daily-notes" class="dashboard-page">
+                <header class="page-header">
+                    <div class="header-title">
+                        <div class="month-selector-nav">
+                            <button type="button" class="month-nav-btn" onclick="adjustNotesMonth(-1)" title="Previous Month">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <div class="custom-month-picker" id="notes-month-picker-container">
+                                <button type="button" class="month-picker-trigger" id="notes-month-trigger" onclick="toggleMonthPicker('notes')">
+                                    <h1 id="notes-month-title">July 2026</h1>
+                                    <i class="fa-solid fa-caret-down month-picker-caret"></i>
+                                </button>
+                                <div class="month-picker-dropdown" id="notes-month-dropdown">
+                                    <div class="mpd-year-nav">
+                                        <button type="button" class="mpd-year-btn" onclick="changePickerYear('notes', -1)"><i class="fa-solid fa-chevron-left"></i></button>
+                                        <span class="mpd-year-label" id="notes-picker-year">2026</span>
+                                        <button type="button" class="mpd-year-btn" onclick="changePickerYear('notes', 1)"><i class="fa-solid fa-chevron-right"></i></button>
+                                    </div>
+                                    <div class="mpd-month-grid" id="notes-month-grid">
+                                        <!-- 12 month buttons generated by JS -->
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="month-nav-btn" onclick="adjustNotesMonth(1)" title="Next Month">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <p class="subtitle" data-i18n="notes_subtitle">- Daily Notes -</p>
+                    </div>
+                </header>
+
+                <div class="dashboard-layout" style="display: grid; grid-template-columns: 280px 1fr; gap: 24px; align-items: start;">
+                    <!-- Left Sidebar: Days List of the selected month -->
+                    <div class="dashboard-card" style="padding: 16px; display: flex; flex-direction: column; gap: 12px; max-height: 70vh; overflow-y: auto;">
+                        <div class="card-header" style="margin-bottom: 12px;">
+                            <h2 style="font-size: 14px; font-weight: 700;" data-i18n="notes_days_title">Days of Month</h2>
+                        </div>
+                        <div id="notes-days-list" style="display: flex; flex-direction: column; gap: 6px;">
+                            <!-- Loaded dynamically by JS -->
+                        </div>
+                    </div>
+
+                    <!-- Right Side: Note Editor -->
+                    <div style="display: flex; flex-direction: column; gap: 24px;">
+                        <div class="dashboard-card" style="border-top: 4px solid var(--primary-blue); display: flex; flex-direction: column; gap: 20px; padding: 24px;">
+                            <div class="editor-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+                                <div>
+                                    <h2 id="active-note-date-label" style="font-size: 18px; font-weight: 700; color: #ffffff;">Wednesday, July 8, 2026</h2>
+                                    <p class="card-subtitle" style="font-size: 11px; margin-top: 2px;" data-i18n="notes_editor_subtitle">Write your daily reflection below</p>
+                                </div>
+                                <!-- Mood Selector -->
+                                <div style="display: flex; flex-direction: column; gap: 4px;">
+                                    <span style="font-size: 10px; font-weight: 700; color: var(--text-muted); text-transform: uppercase;" data-i18n="notes_mood_label">Today's Mood</span>
+                                    <div class="note-mood-selector" style="display: flex; gap: 6px; background: rgba(0,0,0,0.2); padding: 4px; border-radius: 8px;">
+                                        <button onclick="setNoteMood('🚀')" class="mood-btn" title="Energetic/Productive">🚀</button>
+                                        <button onclick="setNoteMood('😊')" class="mood-btn" title="Happy/Good">😊</button>
+                                        <button onclick="setNoteMood('🧘')" class="mood-btn" title="Calm/Mindful">🧘</button>
+                                        <button onclick="setNoteMood('🎯')" class="mood-btn" title="Focused">🎯</button>
+                                        <button onclick="setNoteMood('🥱')" class="mood-btn" title="Tired">🥱</button>
+                                        <button onclick="setNoteMood('😔')" class="mood-btn" title="Sad/Low">😔</button>
+                                        <button onclick="setNoteMood('😡')" class="mood-btn" title="Stressed/Angry">😡</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Text Area -->
+                            <div style="display: flex; flex-direction: column; gap: 8px; width: 100%;">
+                                <textarea id="note-textarea" placeholder="Write your thoughts, reflections or achievements for today here..." style="width: 100%; height: 320px; background-color: var(--bg-input); border: 1px solid var(--border-color); color: var(--text-primary); padding: 16px; border-radius: 8px; font-family: inherit; font-size: 14px; resize: vertical; outline: none; transition: border-color 0.2s;" oninput="onNoteInput()"></textarea>
+                                <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: var(--text-muted);">
+                                    <span id="note-word-char-count">Words: 0 | Characters: 0</span>
+                                    <span id="note-save-status" style="font-style: italic;">Saved</span>
+                                </div>
+                            </div>
+
+                            <!-- Tags Input -->
+                            <div style="display: flex; flex-direction: column; gap: 8px; width: 100%;">
+                                <label style="font-size: 12px; font-weight: 600; color: var(--text-secondary);" data-i18n="notes_tags_label">Tags (comma separated)</label>
+                                <div style="display: flex; gap: 12px; align-items: center; width: 100%;">
+                                    <input type="text" id="note-tags-input" placeholder="e.g. productivity, workout, meditation" class="inline-crud-input" style="flex: 1; padding: 10px !important;" onchange="saveActiveNote()">
+                                </div>
+                                <div id="note-tags-badges" style="display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px;">
+                                    <!-- Rendered dynamically -->
+                                </div>
+                            </div>
+
+                            <!-- Footer Save Button -->
+                            <div style="display: flex; justify-content: flex-end; width: 100%; margin-top: 10px;">
+                                <button class="action-btn" onclick="saveActiveNote()" style="padding: 10px 24px; font-weight: 700;">
+                                    <i class="fa-solid fa-floppy-disk" style="margin-right: 8px;"></i>
+                                    <span data-i18n="notes_save_btn">Save Note</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modals -->
+    <!-- Add Habit Modal -->
+    <div id="add-habit-modal" class="modal-overlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Add New Habit</h3>
+                <button class="close-btn" onclick="closeAddHabitModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="add-habit-form" onsubmit="submitAddHabit(event)">
+                    <div class="form-group">
+                        <label for="habit-name">Habit Name (with emoji!)</label>
+                        <input type="text" id="habit-name" placeholder="e.g. Read books 📚" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="habit-category">Category</label>
+                        <select id="habit-category">
+                            <option value="manha">Morning</option>
+                            <option value="alimentos">Nutrition</option>
+                            <option value="higiene">Hygiene</option>
+                            <option value="tarde">Afternoon</option>
+                            <option value="projeto">Projects</option>
+                            <option value="noite">Evening</option>
+                            <option value="geral">General</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-btn">Save Habit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mental State Cell Edit Modal -->
+    <div id="edit-mental-modal" class="modal-overlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 id="edit-mental-title">Edit Mental State</h3>
+                <button class="close-btn" onclick="closeEditMentalModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="edit-mental-form" onsubmit="submitEditMental(event)">
+                    <input type="hidden" id="edit-mental-date">
+                    <div class="form-group">
+                        <label for="edit-mental-mood">Mood (1 - 10)</label>
+                        <input type="number" id="edit-mental-mood" min="1" max="10" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-mental-motivation">Motivation (1 - 10)</label>
+                        <input type="number" id="edit-mental-motivation" min="1" max="10" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Update Values</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Task Mindset Modal -->
+    <div id="edit-day-mindset-modal" class="modal-overlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 id="edit-day-mindset-title">Edit Daily Mindset (Tasks Page)</h3>
+                <button class="close-btn" onclick="closeDayMindsetModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="edit-day-mindset-form" onsubmit="submitDayMindset(event)">
+                    <input type="hidden" id="edit-mindset-day-idx">
+                    <div class="form-group">
+                        <label for="edit-mindset-energy">Energy (1 - 10)</label>
+                        <input type="number" id="edit-mindset-energy" min="1" max="10" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-mindset-focus">Focus (1 - 10)</label>
+                        <input type="number" id="edit-mindset-focus" min="1" max="10" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-mindset-motivation">Motivation (1 - 10)</label>
+                        <input type="number" id="edit-mindset-motivation" min="1" max="10" required>
+                    </div>
+                    <button type="submit" class="submit-btn">Save Changes</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Habit Modal -->
+    <div id="edit-habit-modal" class="modal-overlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Edit Habit Details</h3>
+                <button class="close-btn" onclick="closeEditHabitModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="edit-habit-form" onsubmit="submitEditHabit(event)">
+                    <input type="hidden" id="edit-habit-id">
+                    <div class="form-group">
+                        <label for="edit-habit-name">Habit Name (with emoji!)</label>
+                        <input type="text" id="edit-habit-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-habit-category">Category</label>
+                        <select id="edit-habit-category">
+                            <option value="manha">Morning</option>
+                            <option value="alimentos">Nutrition</option>
+                            <option value="higiene">Hygiene</option>
+                            <option value="tarde">Afternoon</option>
+                            <option value="projeto">Projects</option>
+                            <option value="noite">Evening</option>
+                            <option value="geral">General</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-btn">Save Changes</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Task Modal -->
+    <div id="edit-task-modal" class="modal-overlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Edit Task Details</h3>
+                <button class="close-btn" onclick="closeEditTaskModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="edit-task-form" onsubmit="submitEditTask(event)">
+                    <input type="hidden" id="edit-task-id">
+                    <div class="form-group">
+                        <label for="edit-task-text">Task Description</label>
+                        <input type="text" id="edit-task-text" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-task-day">Day of Week</label>
+                        <select id="edit-task-day">
+                            <option value="0">Sunday</option>
+                            <option value="1">Monday</option>
+                            <option value="2">Tuesday</option>
+                            <option value="3">Wednesday</option>
+                            <option value="4">Thursday</option>
+                            <option value="5">Friday</option>
+                            <option value="6">Saturday</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-task-color">Color indicator</label>
+                        <input type="color" id="edit-task-color" value="#3b82f6" style="height: 40px; padding: 2px; background: none; border: 1px solid var(--border-color);">
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-task-completed">Status</label>
+                        <select id="edit-task-completed">
+                            <option value="false">Not Completed</option>
+                            <option value="true">Completed</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-btn">Save Changes</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Options for Mental State editable dropdown inputs -->
+    <datalist id="mental-options">
+        <option value="1"></option>
+        <option value="2"></option>
+        <option value="3"></option>
+        <option value="4"></option>
+        <option value="5"></option>
+        <option value="6"></option>
+        <option value="7"></option>
+        <option value="8"></option>
+        <option value="9"></option>
+        <option value="10"></option>
+    </datalist>
+    <!-- Custom script logic -->
+    <script src="script.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('Service Worker registered with scope:', reg.scope))
+                    .catch(err => console.error('Service Worker registration failed:', err));
+            });
+        }
+    </script>
+</body>
+</html>

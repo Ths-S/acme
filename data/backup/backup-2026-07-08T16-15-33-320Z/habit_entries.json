@@ -1,0 +1,4342 @@
+[
+  {
+    "_id": "tg5lf85cmmrc9qub1",
+    "date": "2026-01-01",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.173Z"
+  },
+  {
+    "_id": "f0ngdyu01mrc9qub2",
+    "date": "2026-01-01",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.174Z"
+  },
+  {
+    "_id": "52t1c6jghmrc9qub3",
+    "date": "2026-01-01",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.175Z"
+  },
+  {
+    "_id": "y4qktu5oxmrc9qub4",
+    "date": "2026-01-01",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.176Z"
+  },
+  {
+    "_id": "rdgg33bu1mrc9qub4",
+    "date": "2026-01-01",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.176Z"
+  },
+  {
+    "_id": "7puv5o30umrc9qub5",
+    "date": "2026-01-01",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.177Z"
+  },
+  {
+    "_id": "rbby08i1emrc9qub6",
+    "date": "2026-01-01",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.178Z"
+  },
+  {
+    "_id": "ree7olulhmrc9qub6",
+    "date": "2026-01-01",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.178Z"
+  },
+  {
+    "_id": "8a5euytavmrc9qub7",
+    "date": "2026-01-01",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.179Z"
+  },
+  {
+    "_id": "aopuaka9hmrc9qub8",
+    "date": "2026-01-01",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.180Z"
+  },
+  {
+    "_id": "eu8ixf633mrc9qub9",
+    "date": "2026-01-02",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.181Z"
+  },
+  {
+    "_id": "qj1sci48smrc9quba",
+    "date": "2026-01-02",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.182Z"
+  },
+  {
+    "_id": "nxzvwklltmrc9qubb",
+    "date": "2026-01-02",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.183Z"
+  },
+  {
+    "_id": "ox0xqmfvfmrc9qubc",
+    "date": "2026-01-02",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.184Z"
+  },
+  {
+    "_id": "650kpbqmumrc9qubd",
+    "date": "2026-01-02",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.185Z"
+  },
+  {
+    "_id": "gdull43spmrc9qubd",
+    "date": "2026-01-02",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.185Z"
+  },
+  {
+    "_id": "iop6vjcchmrc9qube",
+    "date": "2026-01-02",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.186Z"
+  },
+  {
+    "_id": "may4ktt56mrc9qube",
+    "date": "2026-01-02",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.186Z"
+  },
+  {
+    "_id": "vxk2xp9hdmrc9qubf",
+    "date": "2026-01-02",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.187Z"
+  },
+  {
+    "_id": "zeq4lvnwxmrc9qubf",
+    "date": "2026-01-02",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.187Z"
+  },
+  {
+    "_id": "ap5cnd1vdmrc9qubg",
+    "date": "2026-01-03",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.188Z"
+  },
+  {
+    "_id": "8eayzwd6smrc9qubg",
+    "date": "2026-01-03",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.188Z"
+  },
+  {
+    "_id": "j5rjukmf1mrc9qubh",
+    "date": "2026-01-03",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.189Z"
+  },
+  {
+    "_id": "st3c1p6w5mrc9qubh",
+    "date": "2026-01-03",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.189Z"
+  },
+  {
+    "_id": "aw3ly99mimrc9qubi",
+    "date": "2026-01-03",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.190Z"
+  },
+  {
+    "_id": "mg08pk3y7mrc9qubi",
+    "date": "2026-01-03",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.190Z"
+  },
+  {
+    "_id": "388sgxys1mrc9qubj",
+    "date": "2026-01-03",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.191Z"
+  },
+  {
+    "_id": "1kvnue36bmrc9qubj",
+    "date": "2026-01-03",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.191Z"
+  },
+  {
+    "_id": "b24l7wdmpmrc9qubk",
+    "date": "2026-01-03",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.192Z"
+  },
+  {
+    "_id": "oby36exgimrc9qubk",
+    "date": "2026-01-03",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.192Z"
+  },
+  {
+    "_id": "kd4pxfofimrc9qubl",
+    "date": "2026-01-04",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.193Z"
+  },
+  {
+    "_id": "tmfb7lr67mrc9qubl",
+    "date": "2026-01-04",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.193Z"
+  },
+  {
+    "_id": "pgqx124irmrc9qubm",
+    "date": "2026-01-04",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.194Z"
+  },
+  {
+    "_id": "rucba136omrc9qubm",
+    "date": "2026-01-04",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.194Z"
+  },
+  {
+    "_id": "46rsvfw8cmrc9qubn",
+    "date": "2026-01-04",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.195Z"
+  },
+  {
+    "_id": "uswdifqmqmrc9qubo",
+    "date": "2026-01-04",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.196Z"
+  },
+  {
+    "_id": "sgcsc78ctmrc9qubq",
+    "date": "2026-01-04",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.198Z"
+  },
+  {
+    "_id": "vb03qftk4mrc9qubr",
+    "date": "2026-01-04",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.199Z"
+  },
+  {
+    "_id": "pdi7mfhermrc9qubt",
+    "date": "2026-01-04",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.201Z"
+  },
+  {
+    "_id": "w9117ybzomrc9qubt",
+    "date": "2026-01-04",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.201Z"
+  },
+  {
+    "_id": "3gj0a7p7zmrc9qubu",
+    "date": "2026-01-05",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.202Z"
+  },
+  {
+    "_id": "e22r2im16mrc9qubv",
+    "date": "2026-01-05",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.203Z"
+  },
+  {
+    "_id": "x98pcyzykmrc9qubx",
+    "date": "2026-01-05",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.205Z"
+  },
+  {
+    "_id": "ex0s5qg2kmrc9quby",
+    "date": "2026-01-05",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.206Z"
+  },
+  {
+    "_id": "as55ino30mrc9qubz",
+    "date": "2026-01-05",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.207Z"
+  },
+  {
+    "_id": "i46a15av4mrc9quc0",
+    "date": "2026-01-05",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.208Z"
+  },
+  {
+    "_id": "h2jr8tf7imrc9quc1",
+    "date": "2026-01-05",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.209Z"
+  },
+  {
+    "_id": "0477qg616mrc9quc1",
+    "date": "2026-01-05",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.209Z"
+  },
+  {
+    "_id": "du4ny9ojmmrc9quc2",
+    "date": "2026-01-05",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.210Z"
+  },
+  {
+    "_id": "v86x7lnyymrc9quc2",
+    "date": "2026-01-05",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.210Z"
+  },
+  {
+    "_id": "2m9tjd2scmrc9quc3",
+    "date": "2026-01-06",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.211Z"
+  },
+  {
+    "_id": "5uyextefsmrc9quc4",
+    "date": "2026-01-06",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.212Z"
+  },
+  {
+    "_id": "1dd1e6io5mrc9quc7",
+    "date": "2026-01-06",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.215Z"
+  },
+  {
+    "_id": "sutggeewzmrc9quc8",
+    "date": "2026-01-06",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.216Z"
+  },
+  {
+    "_id": "dcwyqesexmrc9quc8",
+    "date": "2026-01-06",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.216Z"
+  },
+  {
+    "_id": "21zscpk1hmrc9quc9",
+    "date": "2026-01-06",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.217Z"
+  },
+  {
+    "_id": "0bu8dcjfzmrc9quca",
+    "date": "2026-01-06",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.218Z"
+  },
+  {
+    "_id": "j64nvvnr7mrc9qucb",
+    "date": "2026-01-06",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.219Z"
+  },
+  {
+    "_id": "dimuidr8gmrc9qucb",
+    "date": "2026-01-06",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.219Z"
+  },
+  {
+    "_id": "u1to6j4kpmrc9qucc",
+    "date": "2026-01-06",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.220Z"
+  },
+  {
+    "_id": "znnj7jes2mrc9qucc",
+    "date": "2026-01-07",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.220Z"
+  },
+  {
+    "_id": "dh1vb30jomrc9qucd",
+    "date": "2026-01-07",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.221Z"
+  },
+  {
+    "_id": "vqytk6ew3mrc9qucd",
+    "date": "2026-01-07",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.221Z"
+  },
+  {
+    "_id": "wo400t2exmrc9quce",
+    "date": "2026-01-07",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.222Z"
+  },
+  {
+    "_id": "i0grdytlamrc9quce",
+    "date": "2026-01-07",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.222Z"
+  },
+  {
+    "_id": "iq2bongwkmrc9qucf",
+    "date": "2026-01-07",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.223Z"
+  },
+  {
+    "_id": "mcx33et80mrc9qucf",
+    "date": "2026-01-07",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.223Z"
+  },
+  {
+    "_id": "rxxrzc11qmrc9qucg",
+    "date": "2026-01-07",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.224Z"
+  },
+  {
+    "_id": "6jisk8fxwmrc9quch",
+    "date": "2026-01-07",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.225Z"
+  },
+  {
+    "_id": "2tstlo0cdmrc9quch",
+    "date": "2026-01-07",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.225Z"
+  },
+  {
+    "_id": "ymorh8x77mrc9quci",
+    "date": "2026-01-08",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.226Z"
+  },
+  {
+    "_id": "sv7r359e4mrc9quci",
+    "date": "2026-01-08",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.226Z"
+  },
+  {
+    "_id": "n10jbawsomrc9qucj",
+    "date": "2026-01-08",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.227Z"
+  },
+  {
+    "_id": "gsq6rmqzimrc9qucj",
+    "date": "2026-01-08",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.227Z"
+  },
+  {
+    "_id": "unjh35gczmrc9quck",
+    "date": "2026-01-08",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.228Z"
+  },
+  {
+    "_id": "tjpkjwjgnmrc9qucl",
+    "date": "2026-01-08",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.229Z"
+  },
+  {
+    "_id": "x3dgu9taymrc9qucn",
+    "date": "2026-01-08",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.231Z"
+  },
+  {
+    "_id": "1ghukolfimrc9quco",
+    "date": "2026-01-08",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.232Z"
+  },
+  {
+    "_id": "9l44sjvuemrc9qucp",
+    "date": "2026-01-08",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.233Z"
+  },
+  {
+    "_id": "tcutk6ku9mrc9qucq",
+    "date": "2026-01-08",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.234Z"
+  },
+  {
+    "_id": "5kiz98fpomrc9qucq",
+    "date": "2026-01-09",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.234Z"
+  },
+  {
+    "_id": "awz0d501rmrc9qucr",
+    "date": "2026-01-09",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.235Z"
+  },
+  {
+    "_id": "jrprwymo4mrc9qucr",
+    "date": "2026-01-09",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.235Z"
+  },
+  {
+    "_id": "io9fpw029mrc9qucs",
+    "date": "2026-01-09",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.236Z"
+  },
+  {
+    "_id": "nxv2c3wxfmrc9qucs",
+    "date": "2026-01-09",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.236Z"
+  },
+  {
+    "_id": "9yfr0pjydmrc9quct",
+    "date": "2026-01-09",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.237Z"
+  },
+  {
+    "_id": "9wj5opopqmrc9quct",
+    "date": "2026-01-09",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.237Z"
+  },
+  {
+    "_id": "clcsyah8qmrc9qucu",
+    "date": "2026-01-09",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.238Z"
+  },
+  {
+    "_id": "81m15x3xlmrc9qucv",
+    "date": "2026-01-09",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.239Z"
+  },
+  {
+    "_id": "84egvr6mjmrc9qucv",
+    "date": "2026-01-09",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.239Z"
+  },
+  {
+    "_id": "bild33vo1mrc9qucw",
+    "date": "2026-01-10",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.240Z"
+  },
+  {
+    "_id": "gtdt4pyx3mrc9qucw",
+    "date": "2026-01-10",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.240Z"
+  },
+  {
+    "_id": "blb2a3r4hmrc9qucx",
+    "date": "2026-01-10",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.241Z"
+  },
+  {
+    "_id": "zcq0y65pomrc9qucx",
+    "date": "2026-01-10",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.241Z"
+  },
+  {
+    "_id": "3j2qhkmp2mrc9qucy",
+    "date": "2026-01-10",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.242Z"
+  },
+  {
+    "_id": "hm0yp6db8mrc9qucy",
+    "date": "2026-01-10",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.242Z"
+  },
+  {
+    "_id": "e1s9xdfe9mrc9qucz",
+    "date": "2026-01-10",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.243Z"
+  },
+  {
+    "_id": "8uguxtfa2mrc9qud0",
+    "date": "2026-01-10",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.244Z"
+  },
+  {
+    "_id": "g7avnyia7mrc9qud1",
+    "date": "2026-01-10",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.245Z"
+  },
+  {
+    "_id": "j78hjwut2mrc9qud3",
+    "date": "2026-01-10",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.247Z"
+  },
+  {
+    "_id": "tfiv64a5pmrc9qud4",
+    "date": "2026-01-11",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.248Z"
+  },
+  {
+    "_id": "k82973fs6mrc9qud5",
+    "date": "2026-01-11",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.249Z"
+  },
+  {
+    "_id": "6x95116x1mrc9qud6",
+    "date": "2026-01-11",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.250Z"
+  },
+  {
+    "_id": "1nv11kbv2mrc9qud7",
+    "date": "2026-01-11",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.251Z"
+  },
+  {
+    "_id": "p32dqse50mrc9qud7",
+    "date": "2026-01-11",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.251Z"
+  },
+  {
+    "_id": "vghc25w26mrc9qud8",
+    "date": "2026-01-11",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.252Z"
+  },
+  {
+    "_id": "0ubk7anfpmrc9qud9",
+    "date": "2026-01-11",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.253Z"
+  },
+  {
+    "_id": "nj1lg2nofmrc9qud9",
+    "date": "2026-01-11",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.253Z"
+  },
+  {
+    "_id": "qpd22q05jmrc9quda",
+    "date": "2026-01-11",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.254Z"
+  },
+  {
+    "_id": "3wji8gr6smrc9qudb",
+    "date": "2026-01-11",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.255Z"
+  },
+  {
+    "_id": "rrlhtew4pmrc9qudb",
+    "date": "2026-01-12",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.255Z"
+  },
+  {
+    "_id": "z1ymh5oe9mrc9qudc",
+    "date": "2026-01-12",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.256Z"
+  },
+  {
+    "_id": "zyhejalcsmrc9qudd",
+    "date": "2026-01-12",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.257Z"
+  },
+  {
+    "_id": "e7f7u7kupmrc9qudd",
+    "date": "2026-01-12",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.257Z"
+  },
+  {
+    "_id": "cufp3v6vtmrc9qude",
+    "date": "2026-01-12",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.258Z"
+  },
+  {
+    "_id": "vcszzdgxqmrc9qude",
+    "date": "2026-01-12",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.258Z"
+  },
+  {
+    "_id": "a3454kwlomrc9qudf",
+    "date": "2026-01-12",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.259Z"
+  },
+  {
+    "_id": "aaz7fj9q9mrc9qudf",
+    "date": "2026-01-12",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.259Z"
+  },
+  {
+    "_id": "xndmzyo1cmrc9qudg",
+    "date": "2026-01-12",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.260Z"
+  },
+  {
+    "_id": "7ghwoiajymrc9qudh",
+    "date": "2026-01-12",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.261Z"
+  },
+  {
+    "_id": "wvo9umbyimrc9qudi",
+    "date": "2026-01-13",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.262Z"
+  },
+  {
+    "_id": "h5oq7y4a7mrc9qudl",
+    "date": "2026-01-13",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.265Z"
+  },
+  {
+    "_id": "syeakp456mrc9qudm",
+    "date": "2026-01-13",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.266Z"
+  },
+  {
+    "_id": "h3azkj867mrc9qudm",
+    "date": "2026-01-13",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.266Z"
+  },
+  {
+    "_id": "rwtp9qhxwmrc9qudn",
+    "date": "2026-01-13",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.267Z"
+  },
+  {
+    "_id": "pcdnuyw7umrc9qudo",
+    "date": "2026-01-13",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.268Z"
+  },
+  {
+    "_id": "78u6xczdemrc9qudp",
+    "date": "2026-01-13",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.269Z"
+  },
+  {
+    "_id": "61bgzv6bgmrc9qudp",
+    "date": "2026-01-13",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.269Z"
+  },
+  {
+    "_id": "ac8bd3j1amrc9qudq",
+    "date": "2026-01-13",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.270Z"
+  },
+  {
+    "_id": "6skqd9kgtmrc9qudq",
+    "date": "2026-01-13",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.270Z"
+  },
+  {
+    "_id": "hmn1oazz3mrc9qudr",
+    "date": "2026-01-14",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.271Z"
+  },
+  {
+    "_id": "nd96o4qlgmrc9qudr",
+    "date": "2026-01-14",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.271Z"
+  },
+  {
+    "_id": "pnnu882l5mrc9quds",
+    "date": "2026-01-14",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.272Z"
+  },
+  {
+    "_id": "evlbdv7kbmrc9qudt",
+    "date": "2026-01-14",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.273Z"
+  },
+  {
+    "_id": "7x6ju8cwzmrc9qudt",
+    "date": "2026-01-14",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.273Z"
+  },
+  {
+    "_id": "6on5uqj3omrc9qudu",
+    "date": "2026-01-14",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.274Z"
+  },
+  {
+    "_id": "hhjmiae7dmrc9qudu",
+    "date": "2026-01-14",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.274Z"
+  },
+  {
+    "_id": "yhagk5sw1mrc9qudv",
+    "date": "2026-01-14",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.275Z"
+  },
+  {
+    "_id": "bstjccctwmrc9qudv",
+    "date": "2026-01-14",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.275Z"
+  },
+  {
+    "_id": "7so66g98tmrc9qudw",
+    "date": "2026-01-14",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.276Z"
+  },
+  {
+    "_id": "ndj0fr4f7mrc9qudx",
+    "date": "2026-01-15",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.277Z"
+  },
+  {
+    "_id": "uhbc17oybmrc9qudx",
+    "date": "2026-01-15",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.277Z"
+  },
+  {
+    "_id": "jb9up0fonmrc9qudy",
+    "date": "2026-01-15",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.278Z"
+  },
+  {
+    "_id": "s1nzkqav2mrc9qudz",
+    "date": "2026-01-15",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.279Z"
+  },
+  {
+    "_id": "drz80tz0zmrc9que1",
+    "date": "2026-01-15",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.281Z"
+  },
+  {
+    "_id": "kf4renshomrc9que2",
+    "date": "2026-01-15",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.282Z"
+  },
+  {
+    "_id": "t175n8xa7mrc9que3",
+    "date": "2026-01-15",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.283Z"
+  },
+  {
+    "_id": "l7widjqvhmrc9que4",
+    "date": "2026-01-15",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.284Z"
+  },
+  {
+    "_id": "f4uvo9lhomrc9que5",
+    "date": "2026-01-15",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.285Z"
+  },
+  {
+    "_id": "2p7safxg7mrc9que5",
+    "date": "2026-01-15",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.285Z"
+  },
+  {
+    "_id": "wxjfg9db2mrc9que6",
+    "date": "2026-01-16",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.286Z"
+  },
+  {
+    "_id": "67gvm82wnmrc9que7",
+    "date": "2026-01-16",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.287Z"
+  },
+  {
+    "_id": "4n4mvl1womrc9que7",
+    "date": "2026-01-16",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.287Z"
+  },
+  {
+    "_id": "szg6zqn73mrc9que8",
+    "date": "2026-01-16",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.288Z"
+  },
+  {
+    "_id": "1cv77k8h1mrc9que9",
+    "date": "2026-01-16",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.289Z"
+  },
+  {
+    "_id": "ha7188a7nmrc9que9",
+    "date": "2026-01-16",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.289Z"
+  },
+  {
+    "_id": "eglulp981mrc9quea",
+    "date": "2026-01-16",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.290Z"
+  },
+  {
+    "_id": "9tfwb0d0kmrc9queb",
+    "date": "2026-01-16",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.291Z"
+  },
+  {
+    "_id": "bqmlusbyumrc9quec",
+    "date": "2026-01-16",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.292Z"
+  },
+  {
+    "_id": "bpg2w7u29mrc9quec",
+    "date": "2026-01-16",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.292Z"
+  },
+  {
+    "_id": "frgydjj6hmrc9qued",
+    "date": "2026-01-17",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.293Z"
+  },
+  {
+    "_id": "81p5vqjmvmrc9quee",
+    "date": "2026-01-17",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.294Z"
+  },
+  {
+    "_id": "wmmepdk1zmrc9quef",
+    "date": "2026-01-17",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.295Z"
+  },
+  {
+    "_id": "8ij6uqihfmrc9queg",
+    "date": "2026-01-17",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.296Z"
+  },
+  {
+    "_id": "xoj41bwdhmrc9quei",
+    "date": "2026-01-17",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.298Z"
+  },
+  {
+    "_id": "wlj50xdqumrc9quej",
+    "date": "2026-01-17",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.299Z"
+  },
+  {
+    "_id": "xjt09ik6gmrc9quek",
+    "date": "2026-01-17",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.300Z"
+  },
+  {
+    "_id": "7svw86wh2mrc9quel",
+    "date": "2026-01-17",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.301Z"
+  },
+  {
+    "_id": "9zqnrm6lemrc9quen",
+    "date": "2026-01-17",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.303Z"
+  },
+  {
+    "_id": "5t9zkr1sxmrc9quep",
+    "date": "2026-01-17",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.305Z"
+  },
+  {
+    "_id": "95gb09xemrc9quep",
+    "date": "2026-01-18",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.305Z"
+  },
+  {
+    "_id": "pg7kf847xmrc9queq",
+    "date": "2026-01-18",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.306Z"
+  },
+  {
+    "_id": "bo18i8m22mrc9quer",
+    "date": "2026-01-18",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.307Z"
+  },
+  {
+    "_id": "upirths5omrc9ques",
+    "date": "2026-01-18",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.308Z"
+  },
+  {
+    "_id": "spjdelkopmrc9ques",
+    "date": "2026-01-18",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.308Z"
+  },
+  {
+    "_id": "pfjisud7umrc9quet",
+    "date": "2026-01-18",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.309Z"
+  },
+  {
+    "_id": "2oizdpsx0mrc9queu",
+    "date": "2026-01-18",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.310Z"
+  },
+  {
+    "_id": "rxu24t7bpmrc9quev",
+    "date": "2026-01-18",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.311Z"
+  },
+  {
+    "_id": "bw5iqtawomrc9quew",
+    "date": "2026-01-18",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.312Z"
+  },
+  {
+    "_id": "793uskzj0mrc9quex",
+    "date": "2026-01-18",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.313Z"
+  },
+  {
+    "_id": "58vfbz8oomrc9quez",
+    "date": "2026-01-19",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.315Z"
+  },
+  {
+    "_id": "nomkuwh58mrc9quf0",
+    "date": "2026-01-19",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.316Z"
+  },
+  {
+    "_id": "vk6ktpo0omrc9quf0",
+    "date": "2026-01-19",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.316Z"
+  },
+  {
+    "_id": "0fiv4jezvmrc9quf1",
+    "date": "2026-01-19",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.317Z"
+  },
+  {
+    "_id": "ez252cz6tmrc9quf2",
+    "date": "2026-01-19",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.318Z"
+  },
+  {
+    "_id": "dpkh9pvbbmrc9quf3",
+    "date": "2026-01-19",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.319Z"
+  },
+  {
+    "_id": "4f9ltjsgsmrc9quf4",
+    "date": "2026-01-19",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.320Z"
+  },
+  {
+    "_id": "p532jrbanmrc9quf4",
+    "date": "2026-01-19",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.320Z"
+  },
+  {
+    "_id": "cusbglpd5mrc9quf5",
+    "date": "2026-01-19",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.321Z"
+  },
+  {
+    "_id": "l8sy191momrc9quf6",
+    "date": "2026-01-19",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.322Z"
+  },
+  {
+    "_id": "ls3jt1pfzmrc9quf7",
+    "date": "2026-01-20",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.323Z"
+  },
+  {
+    "_id": "w25ynusp6mrc9quf7",
+    "date": "2026-01-20",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.323Z"
+  },
+  {
+    "_id": "zn84fiar8mrc9quf8",
+    "date": "2026-01-20",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.324Z"
+  },
+  {
+    "_id": "4c20if4bomrc9quf9",
+    "date": "2026-01-20",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.325Z"
+  },
+  {
+    "_id": "l5szuepuymrc9qufa",
+    "date": "2026-01-20",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.326Z"
+  },
+  {
+    "_id": "5vzfe0jx5mrc9qufa",
+    "date": "2026-01-20",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.326Z"
+  },
+  {
+    "_id": "71mefr3k7mrc9qufb",
+    "date": "2026-01-20",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.327Z"
+  },
+  {
+    "_id": "098kbnhuqmrc9qufc",
+    "date": "2026-01-20",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.328Z"
+  },
+  {
+    "_id": "55unhdkiqmrc9qufd",
+    "date": "2026-01-20",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.329Z"
+  },
+  {
+    "_id": "1aok2ke50mrc9qufg",
+    "date": "2026-01-20",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.332Z"
+  },
+  {
+    "_id": "yuyo6ouqzmrc9qufh",
+    "date": "2026-01-21",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.333Z"
+  },
+  {
+    "_id": "7c0qhg8anmrc9qufi",
+    "date": "2026-01-21",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.334Z"
+  },
+  {
+    "_id": "skglxrtwgmrc9qufj",
+    "date": "2026-01-21",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.335Z"
+  },
+  {
+    "_id": "h5owsv5jvmrc9qufl",
+    "date": "2026-01-21",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.337Z"
+  },
+  {
+    "_id": "tkdob7yzomrc9qufm",
+    "date": "2026-01-21",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.338Z"
+  },
+  {
+    "_id": "y1j8gvhknmrc9qufm",
+    "date": "2026-01-21",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.338Z"
+  },
+  {
+    "_id": "9uq5zsg00mrc9qufn",
+    "date": "2026-01-21",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.339Z"
+  },
+  {
+    "_id": "nufs0yne8mrc9qufo",
+    "date": "2026-01-21",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.340Z"
+  },
+  {
+    "_id": "f2gg87zfumrc9qufp",
+    "date": "2026-01-21",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.341Z"
+  },
+  {
+    "_id": "4u37naaa3mrc9qufq",
+    "date": "2026-01-21",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.342Z"
+  },
+  {
+    "_id": "r5xo6kedymrc9qufr",
+    "date": "2026-01-22",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.343Z"
+  },
+  {
+    "_id": "s1gzegpvrmrc9quft",
+    "date": "2026-01-22",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.345Z"
+  },
+  {
+    "_id": "hrlumindcmrc9qufv",
+    "date": "2026-01-22",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.347Z"
+  },
+  {
+    "_id": "v7yfll96zmrc9qufx",
+    "date": "2026-01-22",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.349Z"
+  },
+  {
+    "_id": "hobxptl4nmrc9qufy",
+    "date": "2026-01-22",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.350Z"
+  },
+  {
+    "_id": "gqb5zar09mrc9qug0",
+    "date": "2026-01-22",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.352Z"
+  },
+  {
+    "_id": "hubhdyl9gmrc9qug0",
+    "date": "2026-01-22",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.352Z"
+  },
+  {
+    "_id": "d9hpfibb7mrc9qug1",
+    "date": "2026-01-22",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.353Z"
+  },
+  {
+    "_id": "asvvq9ssvmrc9qug2",
+    "date": "2026-01-22",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.354Z"
+  },
+  {
+    "_id": "z4az1y1krmrc9qug3",
+    "date": "2026-01-22",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.355Z"
+  },
+  {
+    "_id": "e80s76j94mrc9qug4",
+    "date": "2026-01-23",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.356Z"
+  },
+  {
+    "_id": "4s7xhkox5mrc9qug4",
+    "date": "2026-01-23",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.356Z"
+  },
+  {
+    "_id": "lmqagsfa3mrc9qug5",
+    "date": "2026-01-23",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.357Z"
+  },
+  {
+    "_id": "9kvzbzp36mrc9qug6",
+    "date": "2026-01-23",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.358Z"
+  },
+  {
+    "_id": "qk3e851c3mrc9qug7",
+    "date": "2026-01-23",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.359Z"
+  },
+  {
+    "_id": "0ufywdpf9mrc9qug8",
+    "date": "2026-01-23",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.360Z"
+  },
+  {
+    "_id": "v4cobxie2mrc9qug9",
+    "date": "2026-01-23",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.361Z"
+  },
+  {
+    "_id": "hh0c66j04mrc9qugb",
+    "date": "2026-01-23",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.363Z"
+  },
+  {
+    "_id": "imkem5p5kmrc9qugc",
+    "date": "2026-01-23",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.364Z"
+  },
+  {
+    "_id": "ofpnyutkzmrc9qugd",
+    "date": "2026-01-23",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.365Z"
+  },
+  {
+    "_id": "rpmefrau2mrc9quge",
+    "date": "2026-01-24",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.366Z"
+  },
+  {
+    "_id": "lf7da2l3rmrc9qugf",
+    "date": "2026-01-24",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.367Z"
+  },
+  {
+    "_id": "xc4qsyk6nmrc9qugg",
+    "date": "2026-01-24",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.368Z"
+  },
+  {
+    "_id": "lo60z9x6wmrc9qugh",
+    "date": "2026-01-24",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.369Z"
+  },
+  {
+    "_id": "jp8tpx13ymrc9qugh",
+    "date": "2026-01-24",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.369Z"
+  },
+  {
+    "_id": "t8vizlcqimrc9qugi",
+    "date": "2026-01-24",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.370Z"
+  },
+  {
+    "_id": "4ajjrtoxkmrc9qugj",
+    "date": "2026-01-24",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.371Z"
+  },
+  {
+    "_id": "93h8ecw5jmrc9qugk",
+    "date": "2026-01-24",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.372Z"
+  },
+  {
+    "_id": "xqdhfad9amrc9qugl",
+    "date": "2026-01-24",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.373Z"
+  },
+  {
+    "_id": "iwjy7tvv8mrc9qugm",
+    "date": "2026-01-24",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.374Z"
+  },
+  {
+    "_id": "g9ztl3nt9mrc9qugn",
+    "date": "2026-01-25",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.375Z"
+  },
+  {
+    "_id": "mf5gpx8nsmrc9qugo",
+    "date": "2026-01-25",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.376Z"
+  },
+  {
+    "_id": "sottjfwormrc9qugp",
+    "date": "2026-01-25",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.377Z"
+  },
+  {
+    "_id": "tnpq0cpkdmrc9qugp",
+    "date": "2026-01-25",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.377Z"
+  },
+  {
+    "_id": "awjz9v06umrc9qugq",
+    "date": "2026-01-25",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.378Z"
+  },
+  {
+    "_id": "u93aeu96jmrc9qugs",
+    "date": "2026-01-25",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.380Z"
+  },
+  {
+    "_id": "ads0c43lcmrc9qugs",
+    "date": "2026-01-25",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.380Z"
+  },
+  {
+    "_id": "f0lahnig2mrc9qugu",
+    "date": "2026-01-25",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.382Z"
+  },
+  {
+    "_id": "ivhqd1x78mrc9qugu",
+    "date": "2026-01-25",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.382Z"
+  },
+  {
+    "_id": "yzch8l46amrc9qugv",
+    "date": "2026-01-25",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.383Z"
+  },
+  {
+    "_id": "4nqqvawa7mrc9qugw",
+    "date": "2026-01-26",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.384Z"
+  },
+  {
+    "_id": "895ojhy2xmrc9qugx",
+    "date": "2026-01-26",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.385Z"
+  },
+  {
+    "_id": "h08wf06ktmrc9qugy",
+    "date": "2026-01-26",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.386Z"
+  },
+  {
+    "_id": "q5te9v3tumrc9qugz",
+    "date": "2026-01-26",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.387Z"
+  },
+  {
+    "_id": "bjhc18i1lmrc9qugz",
+    "date": "2026-01-26",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.387Z"
+  },
+  {
+    "_id": "qr7et9flemrc9quh0",
+    "date": "2026-01-26",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.388Z"
+  },
+  {
+    "_id": "8pzbx45rfmrc9quh1",
+    "date": "2026-01-26",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.389Z"
+  },
+  {
+    "_id": "pz87hs0v9mrc9quh2",
+    "date": "2026-01-26",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.390Z"
+  },
+  {
+    "_id": "uvpfoorz5mrc9quh3",
+    "date": "2026-01-26",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.391Z"
+  },
+  {
+    "_id": "6uo7flnrdmrc9quh4",
+    "date": "2026-01-26",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.392Z"
+  },
+  {
+    "_id": "prn2mptofmrc9quh5",
+    "date": "2026-01-27",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.393Z"
+  },
+  {
+    "_id": "nlghpa53wmrc9quh5",
+    "date": "2026-01-27",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.393Z"
+  },
+  {
+    "_id": "cc3hszah0mrc9quh6",
+    "date": "2026-01-27",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.394Z"
+  },
+  {
+    "_id": "zg96y54rpmrc9quh7",
+    "date": "2026-01-27",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.395Z"
+  },
+  {
+    "_id": "qnai1i58qmrc9quh9",
+    "date": "2026-01-27",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.397Z"
+  },
+  {
+    "_id": "5uwskqztxmrc9quh9",
+    "date": "2026-01-27",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.397Z"
+  },
+  {
+    "_id": "x93giukatmrc9quha",
+    "date": "2026-01-27",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.398Z"
+  },
+  {
+    "_id": "3xnsfyepcmrc9quhb",
+    "date": "2026-01-27",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.399Z"
+  },
+  {
+    "_id": "d09ieqltrmrc9quhc",
+    "date": "2026-01-27",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.400Z"
+  },
+  {
+    "_id": "ghvnxhp3vmrc9quhe",
+    "date": "2026-01-27",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.402Z"
+  },
+  {
+    "_id": "otonuf0zsmrc9quhf",
+    "date": "2026-01-28",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.403Z"
+  },
+  {
+    "_id": "9nw710fy6mrc9quhg",
+    "date": "2026-01-28",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.404Z"
+  },
+  {
+    "_id": "m2aiirgikmrc9quhh",
+    "date": "2026-01-28",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.405Z"
+  },
+  {
+    "_id": "pdf4uurv6mrc9quhi",
+    "date": "2026-01-28",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.406Z"
+  },
+  {
+    "_id": "zlmajnsw3mrc9quhj",
+    "date": "2026-01-28",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.407Z"
+  },
+  {
+    "_id": "qyi1svv2lmrc9quhk",
+    "date": "2026-01-28",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.408Z"
+  },
+  {
+    "_id": "op21jlvbzmrc9quhl",
+    "date": "2026-01-28",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.409Z"
+  },
+  {
+    "_id": "t0ag1ivr3mrc9quhm",
+    "date": "2026-01-28",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.410Z"
+  },
+  {
+    "_id": "f1owexaw8mrc9quho",
+    "date": "2026-01-28",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.412Z"
+  },
+  {
+    "_id": "sm5lw6q1rmrc9quhp",
+    "date": "2026-01-28",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.413Z"
+  },
+  {
+    "_id": "u9kdxydzimrc9quhq",
+    "date": "2026-01-29",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.414Z"
+  },
+  {
+    "_id": "1bywj9ex7mrc9quhr",
+    "date": "2026-01-29",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.415Z"
+  },
+  {
+    "_id": "e3c8jeci0mrc9quhs",
+    "date": "2026-01-29",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.416Z"
+  },
+  {
+    "_id": "4bq2ilncjmrc9quhs",
+    "date": "2026-01-29",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.416Z"
+  },
+  {
+    "_id": "clh331bw0mrc9quht",
+    "date": "2026-01-29",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.417Z"
+  },
+  {
+    "_id": "teqvx1kbdmrc9quhu",
+    "date": "2026-01-29",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.418Z"
+  },
+  {
+    "_id": "4pdlx0tdcmrc9quhv",
+    "date": "2026-01-29",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.419Z"
+  },
+  {
+    "_id": "06vmn58wdmrc9quhw",
+    "date": "2026-01-29",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.420Z"
+  },
+  {
+    "_id": "1w9tmqsx3mrc9quhx",
+    "date": "2026-01-29",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.421Z"
+  },
+  {
+    "_id": "utbwphyyqmrc9quhy",
+    "date": "2026-01-29",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.422Z"
+  },
+  {
+    "_id": "50vn6rr8cmrc9quhz",
+    "date": "2026-01-30",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.423Z"
+  },
+  {
+    "_id": "rw6chcpunmrc9qui0",
+    "date": "2026-01-30",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.424Z"
+  },
+  {
+    "_id": "g85zt69dqmrc9qui2",
+    "date": "2026-01-30",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.426Z"
+  },
+  {
+    "_id": "2k48kxrufmrc9qui2",
+    "date": "2026-01-30",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.426Z"
+  },
+  {
+    "_id": "tmdo3j3z4mrc9qui3",
+    "date": "2026-01-30",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.427Z"
+  },
+  {
+    "_id": "vi28x02kcmrc9qui4",
+    "date": "2026-01-30",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.428Z"
+  },
+  {
+    "_id": "xekd75p96mrc9qui5",
+    "date": "2026-01-30",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.429Z"
+  },
+  {
+    "_id": "wik5to6k6mrc9qui6",
+    "date": "2026-01-30",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.430Z"
+  },
+  {
+    "_id": "91s72cedimrc9qui7",
+    "date": "2026-01-30",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.431Z"
+  },
+  {
+    "_id": "ilr4faw26mrc9qui8",
+    "date": "2026-01-30",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.432Z"
+  },
+  {
+    "_id": "gr5gs8a4ymrc9qui9",
+    "date": "2026-01-31",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.433Z"
+  },
+  {
+    "_id": "wb4267sztmrc9quia",
+    "date": "2026-01-31",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.434Z"
+  },
+  {
+    "_id": "rcwsxof5amrc9quib",
+    "date": "2026-01-31",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.435Z"
+  },
+  {
+    "_id": "jk62frdpumrc9quic",
+    "date": "2026-01-31",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.436Z"
+  },
+  {
+    "_id": "ltqc39id9mrc9quid",
+    "date": "2026-01-31",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.437Z"
+  },
+  {
+    "_id": "3q0kwim3qmrc9quie",
+    "date": "2026-01-31",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.438Z"
+  },
+  {
+    "_id": "pmp3dimvfmrc9quif",
+    "date": "2026-01-31",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.439Z"
+  },
+  {
+    "_id": "qrq0ijk9xmrc9quig",
+    "date": "2026-01-31",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.440Z"
+  },
+  {
+    "_id": "0m3pinktnmrc9quih",
+    "date": "2026-01-31",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.441Z"
+  },
+  {
+    "_id": "s873akj5zmrc9quii",
+    "date": "2026-01-31",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.442Z"
+  },
+  {
+    "_id": "l4k6rf5sqmrc9quij",
+    "date": "2026-07-01",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.443Z"
+  },
+  {
+    "_id": "wsirboa2nmrc9quik",
+    "date": "2026-07-01",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.444Z"
+  },
+  {
+    "_id": "0dkeq96xqmrc9quil",
+    "date": "2026-07-01",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.445Z"
+  },
+  {
+    "_id": "w00c4pwcbmrc9quim",
+    "date": "2026-07-01",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.446Z"
+  },
+  {
+    "_id": "j6k237p5lmrc9quin",
+    "date": "2026-07-01",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.447Z"
+  },
+  {
+    "_id": "phhsaue9wmrc9quio",
+    "date": "2026-07-01",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.448Z"
+  },
+  {
+    "_id": "co538h7womrc9quip",
+    "date": "2026-07-01",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.449Z"
+  },
+  {
+    "_id": "7dffyfieemrc9quir",
+    "date": "2026-07-01",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.451Z"
+  },
+  {
+    "_id": "dypm8knedmrc9quis",
+    "date": "2026-07-01",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.452Z"
+  },
+  {
+    "_id": "cm2u5g2mjmrc9quis",
+    "date": "2026-07-01",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.452Z"
+  },
+  {
+    "_id": "bdtax3sjqmrc9quit",
+    "date": "2026-07-02",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.453Z"
+  },
+  {
+    "_id": "kc7i7kdh6mrc9quiu",
+    "date": "2026-07-02",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.454Z"
+  },
+  {
+    "_id": "tgaoa1ggxmrc9quiw",
+    "date": "2026-07-02",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.456Z"
+  },
+  {
+    "_id": "y7u7r54y9mrc9quix",
+    "date": "2026-07-02",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.457Z"
+  },
+  {
+    "_id": "l0ls3e4ztmrc9quiy",
+    "date": "2026-07-02",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.458Z"
+  },
+  {
+    "_id": "4yhkyenohmrc9quiz",
+    "date": "2026-07-02",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.459Z"
+  },
+  {
+    "_id": "ofe1g8auymrc9quj0",
+    "date": "2026-07-02",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.460Z"
+  },
+  {
+    "_id": "reidvbs9kmrc9quj1",
+    "date": "2026-07-02",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.461Z"
+  },
+  {
+    "_id": "56bwto81umrc9quj2",
+    "date": "2026-07-02",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.462Z"
+  },
+  {
+    "_id": "7toipdtcbmrc9quj4",
+    "date": "2026-07-02",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.464Z"
+  },
+  {
+    "_id": "3ulvm2mczmrc9quj5",
+    "date": "2026-07-03",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.465Z"
+  },
+  {
+    "_id": "lrmn70q9rmrc9quj6",
+    "date": "2026-07-03",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.466Z"
+  },
+  {
+    "_id": "5etxbkotsmrc9quj7",
+    "date": "2026-07-03",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.467Z"
+  },
+  {
+    "_id": "sdzhr9tcjmrc9quj8",
+    "date": "2026-07-03",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.468Z"
+  },
+  {
+    "_id": "tat23ao7bmrc9quj8",
+    "date": "2026-07-03",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.468Z"
+  },
+  {
+    "_id": "7cfqdckndmrc9quja",
+    "date": "2026-07-03",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.470Z"
+  },
+  {
+    "_id": "ssz27f0b4mrc9qujb",
+    "date": "2026-07-03",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.471Z"
+  },
+  {
+    "_id": "ugyywdnb5mrc9qujc",
+    "date": "2026-07-03",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.472Z"
+  },
+  {
+    "_id": "s3jbk29qkmrc9qujd",
+    "date": "2026-07-03",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.473Z"
+  },
+  {
+    "_id": "minv49fyqmrc9quje",
+    "date": "2026-07-03",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.474Z"
+  },
+  {
+    "_id": "71mpt1nhnmrc9qujg",
+    "date": "2026-07-04",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.476Z"
+  },
+  {
+    "_id": "gx1ifqk95mrc9qujp",
+    "date": "2026-07-04",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.485Z"
+  },
+  {
+    "_id": "sitq8o3wamrc9qujr",
+    "date": "2026-07-04",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.487Z"
+  },
+  {
+    "_id": "xfnui2n8wmrc9qujs",
+    "date": "2026-07-04",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.488Z"
+  },
+  {
+    "_id": "2gaiwgxhumrc9quju",
+    "date": "2026-07-04",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.490Z"
+  },
+  {
+    "_id": "rg37kfqw8mrc9qujv",
+    "date": "2026-07-04",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.491Z"
+  },
+  {
+    "_id": "ai0wxg253mrc9qujw",
+    "date": "2026-07-04",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.492Z"
+  },
+  {
+    "_id": "cydksi5jgmrc9qujy",
+    "date": "2026-07-04",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.494Z"
+  },
+  {
+    "_id": "tagfon5t3mrc9quk0",
+    "date": "2026-07-04",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.496Z"
+  },
+  {
+    "_id": "4b3tu69ymmrc9quk1",
+    "date": "2026-07-04",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.497Z"
+  },
+  {
+    "_id": "znrfcndq9mrc9quk3",
+    "date": "2026-07-05",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.499Z"
+  },
+  {
+    "_id": "v9cfspm2hmrc9quk4",
+    "date": "2026-07-05",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.500Z"
+  },
+  {
+    "_id": "2m4pfjyoemrc9quk6",
+    "date": "2026-07-05",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.502Z"
+  },
+  {
+    "_id": "sna829i9cmrc9quk9",
+    "date": "2026-07-05",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.505Z"
+  },
+  {
+    "_id": "9c9l91wrbmrc9qukb",
+    "date": "2026-07-05",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.507Z"
+  },
+  {
+    "_id": "qneathjc7mrc9qukd",
+    "date": "2026-07-05",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.509Z"
+  },
+  {
+    "_id": "2i24fefpjmrc9quke",
+    "date": "2026-07-05",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.510Z"
+  },
+  {
+    "_id": "zrxg9lx7dmrc9qukf",
+    "date": "2026-07-05",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.511Z"
+  },
+  {
+    "_id": "p0qv4bi08mrc9qukh",
+    "date": "2026-07-05",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.513Z"
+  },
+  {
+    "_id": "lan3lad3tmrc9qukj",
+    "date": "2026-07-05",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.515Z"
+  },
+  {
+    "_id": "c5wfdosfcmrc9qukk",
+    "date": "2026-07-06",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.516Z"
+  },
+  {
+    "_id": "g5lxw8t4qmrc9qukm",
+    "date": "2026-07-06",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.518Z"
+  },
+  {
+    "_id": "1nsrui1hdmrc9quko",
+    "date": "2026-07-06",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.520Z"
+  },
+  {
+    "_id": "d35tje6fwmrc9qukp",
+    "date": "2026-07-06",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.521Z"
+  },
+  {
+    "_id": "izgztblr8mrc9qukq",
+    "date": "2026-07-06",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.522Z"
+  },
+  {
+    "_id": "kl3qjrmujmrc9quks",
+    "date": "2026-07-06",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.524Z"
+  },
+  {
+    "_id": "4uzimk27smrc9qukt",
+    "date": "2026-07-06",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.525Z"
+  },
+  {
+    "_id": "s40is77yfmrc9qukv",
+    "date": "2026-07-06",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.527Z"
+  },
+  {
+    "_id": "eillefhabmrc9qukw",
+    "date": "2026-07-06",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.528Z"
+  },
+  {
+    "_id": "3e64xa881mrc9qukx",
+    "date": "2026-07-06",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.529Z"
+  },
+  {
+    "_id": "upgastvzjmrc9qukz",
+    "date": "2026-07-07",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.531Z"
+  },
+  {
+    "_id": "r9dp44i0fmrc9qul0",
+    "date": "2026-07-07",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.532Z"
+  },
+  {
+    "_id": "y0xn3robomrc9qul1",
+    "date": "2026-07-07",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.533Z"
+  },
+  {
+    "_id": "0qio05m7smrc9qul2",
+    "date": "2026-07-07",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.534Z"
+  },
+  {
+    "_id": "zyllrgh23mrc9qul3",
+    "date": "2026-07-07",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.535Z"
+  },
+  {
+    "_id": "1hjy9ozfumrc9qul4",
+    "date": "2026-07-07",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.536Z"
+  },
+  {
+    "_id": "gjltij5ujmrc9qul5",
+    "date": "2026-07-07",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.537Z"
+  },
+  {
+    "_id": "zp7cis0q1mrc9qul6",
+    "date": "2026-07-07",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.538Z"
+  },
+  {
+    "_id": "93tk54blgmrc9qul7",
+    "date": "2026-07-07",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.539Z"
+  },
+  {
+    "_id": "qtlq93xe0mrc9qul8",
+    "date": "2026-07-07",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.540Z"
+  },
+  {
+    "_id": "ddhrxt7tdmrc9qul9",
+    "date": "2026-07-08",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.541Z"
+  },
+  {
+    "_id": "l2bj5di8kmrc9qulb",
+    "date": "2026-07-08",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.543Z"
+  },
+  {
+    "_id": "rilmzwa1kmrc9qulc",
+    "date": "2026-07-08",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.544Z"
+  },
+  {
+    "_id": "qm1jdr8mtmrc9quld",
+    "date": "2026-07-08",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.545Z"
+  },
+  {
+    "_id": "c4l707pbkmrc9quld",
+    "date": "2026-07-08",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.545Z"
+  },
+  {
+    "_id": "yucrqxygomrc9qule",
+    "date": "2026-07-08",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.546Z"
+  },
+  {
+    "_id": "x8nqg95jumrc9qulg",
+    "date": "2026-07-08",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.548Z"
+  },
+  {
+    "_id": "5dss4p8x4mrc9qulh",
+    "date": "2026-07-08",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.549Z"
+  },
+  {
+    "_id": "kpz4a7ekdmrc9quli",
+    "date": "2026-07-08",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.550Z"
+  },
+  {
+    "_id": "jw89dklg2mrc9qulj",
+    "date": "2026-07-08",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.551Z"
+  },
+  {
+    "_id": "w64u9v62smrc9qulk",
+    "date": "2026-07-09",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.552Z"
+  },
+  {
+    "_id": "f6rd7wc9imrc9qull",
+    "date": "2026-07-09",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.553Z"
+  },
+  {
+    "_id": "987nd0s2umrc9qulm",
+    "date": "2026-07-09",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.554Z"
+  },
+  {
+    "_id": "dn44jaox1mrc9quln",
+    "date": "2026-07-09",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.555Z"
+  },
+  {
+    "_id": "w4x193bkomrc9qulo",
+    "date": "2026-07-09",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.556Z"
+  },
+  {
+    "_id": "wqwex18j8mrc9qulp",
+    "date": "2026-07-09",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.557Z"
+  },
+  {
+    "_id": "i83icht7lmrc9qulq",
+    "date": "2026-07-09",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.558Z"
+  },
+  {
+    "_id": "pzo5gkptmmrc9qulr",
+    "date": "2026-07-09",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.559Z"
+  },
+  {
+    "_id": "k2q8ryu6dmrc9qult",
+    "date": "2026-07-09",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.561Z"
+  },
+  {
+    "_id": "v6xhsx960mrc9qulu",
+    "date": "2026-07-09",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.562Z"
+  },
+  {
+    "_id": "18bpv382dmrc9qulv",
+    "date": "2026-07-10",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.563Z"
+  },
+  {
+    "_id": "lutd675q4mrc9qulx",
+    "date": "2026-07-10",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.565Z"
+  },
+  {
+    "_id": "xldd9qcapmrc9quly",
+    "date": "2026-07-10",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.566Z"
+  },
+  {
+    "_id": "s7cap8weymrc9qulz",
+    "date": "2026-07-10",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.567Z"
+  },
+  {
+    "_id": "jl3q7dwlrmrc9qum0",
+    "date": "2026-07-10",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.568Z"
+  },
+  {
+    "_id": "sfvh4tmgumrc9qum1",
+    "date": "2026-07-10",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.569Z"
+  },
+  {
+    "_id": "jc8d9co5dmrc9qum2",
+    "date": "2026-07-10",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.570Z"
+  },
+  {
+    "_id": "lvj3ivw7umrc9qum3",
+    "date": "2026-07-10",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.571Z"
+  },
+  {
+    "_id": "10e7m64obmrc9qum4",
+    "date": "2026-07-10",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.572Z"
+  },
+  {
+    "_id": "ji6fm0vkxmrc9qum5",
+    "date": "2026-07-10",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.573Z"
+  },
+  {
+    "_id": "vlh730f9rmrc9qum7",
+    "date": "2026-07-11",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.575Z"
+  },
+  {
+    "_id": "8pg7xdqvpmrc9qum8",
+    "date": "2026-07-11",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.576Z"
+  },
+  {
+    "_id": "465ifm73amrc9qum9",
+    "date": "2026-07-11",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.577Z"
+  },
+  {
+    "_id": "hbbh6zoo8mrc9quma",
+    "date": "2026-07-11",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.578Z"
+  },
+  {
+    "_id": "sxrcwjn8fmrc9qumb",
+    "date": "2026-07-11",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.579Z"
+  },
+  {
+    "_id": "hg0yyoh8pmrc9qumc",
+    "date": "2026-07-11",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.580Z"
+  },
+  {
+    "_id": "nelzhik1hmrc9qumd",
+    "date": "2026-07-11",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.581Z"
+  },
+  {
+    "_id": "fiecd8fsgmrc9qume",
+    "date": "2026-07-11",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.582Z"
+  },
+  {
+    "_id": "93ibu3k4jmrc9qumf",
+    "date": "2026-07-11",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.583Z"
+  },
+  {
+    "_id": "p7lgs63ngmrc9qumg",
+    "date": "2026-07-11",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.584Z"
+  },
+  {
+    "_id": "c1e3138yqmrc9qumh",
+    "date": "2026-07-12",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.585Z"
+  },
+  {
+    "_id": "awfnytursmrc9qumi",
+    "date": "2026-07-12",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.586Z"
+  },
+  {
+    "_id": "aa1cyhlr8mrc9qumk",
+    "date": "2026-07-12",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.588Z"
+  },
+  {
+    "_id": "7aqghnnebmrc9quml",
+    "date": "2026-07-12",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.589Z"
+  },
+  {
+    "_id": "k2a5655hwmrc9qumm",
+    "date": "2026-07-12",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.590Z"
+  },
+  {
+    "_id": "jjbep9h1amrc9qumn",
+    "date": "2026-07-12",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.591Z"
+  },
+  {
+    "_id": "rv44fkznpmrc9qumo",
+    "date": "2026-07-12",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.592Z"
+  },
+  {
+    "_id": "qloz2rx86mrc9qumq",
+    "date": "2026-07-12",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.594Z"
+  },
+  {
+    "_id": "ujfgzsqfimrc9qumr",
+    "date": "2026-07-12",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.595Z"
+  },
+  {
+    "_id": "qn9oylhipmrc9qumt",
+    "date": "2026-07-12",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.597Z"
+  },
+  {
+    "_id": "75belez4tmrc9qumv",
+    "date": "2026-07-13",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.599Z"
+  },
+  {
+    "_id": "aecpcuz75mrc9qumw",
+    "date": "2026-07-13",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.600Z"
+  },
+  {
+    "_id": "4fulc30dmmrc9qumx",
+    "date": "2026-07-13",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.601Z"
+  },
+  {
+    "_id": "vmr4w3760mrc9qumy",
+    "date": "2026-07-13",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.602Z"
+  },
+  {
+    "_id": "vefq7t0k6mrc9qumz",
+    "date": "2026-07-13",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.603Z"
+  },
+  {
+    "_id": "6pry0v7qzmrc9qun1",
+    "date": "2026-07-13",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.605Z"
+  },
+  {
+    "_id": "oxy97nojimrc9qun2",
+    "date": "2026-07-13",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.606Z"
+  },
+  {
+    "_id": "28hwkuarxmrc9qun3",
+    "date": "2026-07-13",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.607Z"
+  },
+  {
+    "_id": "gemypk7zymrc9qun4",
+    "date": "2026-07-13",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.608Z"
+  },
+  {
+    "_id": "i2qadyafsmrc9qun5",
+    "date": "2026-07-13",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.609Z"
+  },
+  {
+    "_id": "jeaalp3swmrc9qun6",
+    "date": "2026-07-14",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.610Z"
+  },
+  {
+    "_id": "r8o3mnkkymrc9qun7",
+    "date": "2026-07-14",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.611Z"
+  },
+  {
+    "_id": "8ddkmdw7vmrc9qun9",
+    "date": "2026-07-14",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.613Z"
+  },
+  {
+    "_id": "yg1l7w80omrc9quna",
+    "date": "2026-07-14",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.614Z"
+  },
+  {
+    "_id": "5er9gpr8lmrc9qunb",
+    "date": "2026-07-14",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.615Z"
+  },
+  {
+    "_id": "vjdd1kzzxmrc9qunc",
+    "date": "2026-07-14",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.616Z"
+  },
+  {
+    "_id": "x1gspmveamrc9qund",
+    "date": "2026-07-14",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.617Z"
+  },
+  {
+    "_id": "82hafz3y8mrc9qune",
+    "date": "2026-07-14",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.618Z"
+  },
+  {
+    "_id": "81s2k95xcmrc9qunf",
+    "date": "2026-07-14",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.619Z"
+  },
+  {
+    "_id": "vh6c64nsbmrc9qunh",
+    "date": "2026-07-14",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.621Z"
+  },
+  {
+    "_id": "558ibf2jgmrc9qunj",
+    "date": "2026-07-15",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.623Z"
+  },
+  {
+    "_id": "055wxzuzsmrc9qunk",
+    "date": "2026-07-15",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.624Z"
+  },
+  {
+    "_id": "ed18m7d4qmrc9qunl",
+    "date": "2026-07-15",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.625Z"
+  },
+  {
+    "_id": "pqhv8y7hfmrc9qunn",
+    "date": "2026-07-15",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.627Z"
+  },
+  {
+    "_id": "bvmq6nsetmrc9quno",
+    "date": "2026-07-15",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.628Z"
+  },
+  {
+    "_id": "e756nqw5lmrc9qunp",
+    "date": "2026-07-15",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.629Z"
+  },
+  {
+    "_id": "i6y9p867omrc9qunq",
+    "date": "2026-07-15",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.630Z"
+  },
+  {
+    "_id": "kd0dr5cthmrc9quns",
+    "date": "2026-07-15",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.632Z"
+  },
+  {
+    "_id": "3bizpz4jcmrc9qunt",
+    "date": "2026-07-15",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.633Z"
+  },
+  {
+    "_id": "it3gqe2oxmrc9qunu",
+    "date": "2026-07-15",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.634Z"
+  },
+  {
+    "_id": "d6n4ylnbvmrc9qunv",
+    "date": "2026-07-16",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.635Z"
+  },
+  {
+    "_id": "a853mwm1fmrc9qunw",
+    "date": "2026-07-16",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.636Z"
+  },
+  {
+    "_id": "dpaiy7eptmrc9quny",
+    "date": "2026-07-16",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.638Z"
+  },
+  {
+    "_id": "4favwdvs3mrc9qunz",
+    "date": "2026-07-16",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.639Z"
+  },
+  {
+    "_id": "5r2w5vf84mrc9quo0",
+    "date": "2026-07-16",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.640Z"
+  },
+  {
+    "_id": "7uy0zm9d3mrc9quo1",
+    "date": "2026-07-16",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.641Z"
+  },
+  {
+    "_id": "w646nbxnbmrc9quo2",
+    "date": "2026-07-16",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.642Z"
+  },
+  {
+    "_id": "rbowwjvrnmrc9quo3",
+    "date": "2026-07-16",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.643Z"
+  },
+  {
+    "_id": "p6r557r3cmrc9quo5",
+    "date": "2026-07-16",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.645Z"
+  },
+  {
+    "_id": "id82py7m4mrc9quo6",
+    "date": "2026-07-16",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.646Z"
+  },
+  {
+    "_id": "sm1bmoiu8mrc9quo7",
+    "date": "2026-07-17",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.647Z"
+  },
+  {
+    "_id": "yjbrr4m48mrc9quo8",
+    "date": "2026-07-17",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.648Z"
+  },
+  {
+    "_id": "yq4upp7b6mrc9quoa",
+    "date": "2026-07-17",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.650Z"
+  },
+  {
+    "_id": "gonrw75zkmrc9quob",
+    "date": "2026-07-17",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.651Z"
+  },
+  {
+    "_id": "rxs6giq39mrc9quoc",
+    "date": "2026-07-17",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.652Z"
+  },
+  {
+    "_id": "oxb0oi0bzmrc9quod",
+    "date": "2026-07-17",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.653Z"
+  },
+  {
+    "_id": "e74wk2inzmrc9quoe",
+    "date": "2026-07-17",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.654Z"
+  },
+  {
+    "_id": "ipwqxp4xzmrc9quog",
+    "date": "2026-07-17",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.656Z"
+  },
+  {
+    "_id": "1qbkokwa2mrc9quoh",
+    "date": "2026-07-17",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.657Z"
+  },
+  {
+    "_id": "lw3m04gh5mrc9quoj",
+    "date": "2026-07-17",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.659Z"
+  },
+  {
+    "_id": "t32z7xgiemrc9quok",
+    "date": "2026-07-18",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.660Z"
+  },
+  {
+    "_id": "iww68vi9vmrc9quom",
+    "date": "2026-07-18",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.662Z"
+  },
+  {
+    "_id": "pchvf3fxhmrc9quon",
+    "date": "2026-07-18",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.663Z"
+  },
+  {
+    "_id": "7nmf376x0mrc9quoo",
+    "date": "2026-07-18",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.664Z"
+  },
+  {
+    "_id": "urdkycs3umrc9quop",
+    "date": "2026-07-18",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.665Z"
+  },
+  {
+    "_id": "s57v2ucphmrc9quop",
+    "date": "2026-07-18",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.665Z"
+  },
+  {
+    "_id": "5w4gwx1y7mrc9quor",
+    "date": "2026-07-18",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.667Z"
+  },
+  {
+    "_id": "eg5p8hzg5mrc9quos",
+    "date": "2026-07-18",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.668Z"
+  },
+  {
+    "_id": "imzhcvxacmrc9quot",
+    "date": "2026-07-18",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.669Z"
+  },
+  {
+    "_id": "g4otq1hpfmrc9quou",
+    "date": "2026-07-18",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.670Z"
+  },
+  {
+    "_id": "gkj0v5utamrc9quov",
+    "date": "2026-07-19",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.671Z"
+  },
+  {
+    "_id": "nrt1w67w8mrc9quow",
+    "date": "2026-07-19",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.672Z"
+  },
+  {
+    "_id": "jsf20w2onmrc9quox",
+    "date": "2026-07-19",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.673Z"
+  },
+  {
+    "_id": "swgonmp64mrc9quoz",
+    "date": "2026-07-19",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.675Z"
+  },
+  {
+    "_id": "sn7e90obbmrc9qup0",
+    "date": "2026-07-19",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.676Z"
+  },
+  {
+    "_id": "4yy1ed3ohmrc9qup1",
+    "date": "2026-07-19",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.677Z"
+  },
+  {
+    "_id": "vgerbheu3mrc9qup2",
+    "date": "2026-07-19",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.678Z"
+  },
+  {
+    "_id": "8ju7xehermrc9qup3",
+    "date": "2026-07-19",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.679Z"
+  },
+  {
+    "_id": "1j6g8mbhhmrc9qup4",
+    "date": "2026-07-19",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.680Z"
+  },
+  {
+    "_id": "oguivr92mmrc9qup4",
+    "date": "2026-07-19",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.680Z"
+  },
+  {
+    "_id": "m68d1lvtemrc9qup5",
+    "date": "2026-07-20",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.681Z"
+  },
+  {
+    "_id": "9iihyavbhmrc9qup6",
+    "date": "2026-07-20",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.682Z"
+  },
+  {
+    "_id": "3tr4ifupsmrc9qup7",
+    "date": "2026-07-20",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.683Z"
+  },
+  {
+    "_id": "u7ynf0fxemrc9qup8",
+    "date": "2026-07-20",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.684Z"
+  },
+  {
+    "_id": "0echxlp6kmrc9qup9",
+    "date": "2026-07-20",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.685Z"
+  },
+  {
+    "_id": "4853cidokmrc9qupa",
+    "date": "2026-07-20",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.686Z"
+  },
+  {
+    "_id": "wvzrva02jmrc9qupb",
+    "date": "2026-07-20",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.687Z"
+  },
+  {
+    "_id": "1x8k02sl7mrc9qupc",
+    "date": "2026-07-20",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.688Z"
+  },
+  {
+    "_id": "9v3tzuyeqmrc9qupd",
+    "date": "2026-07-20",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.689Z"
+  },
+  {
+    "_id": "2vfkv5qibmrc9qupe",
+    "date": "2026-07-20",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.690Z"
+  },
+  {
+    "_id": "1uqtu5zcvmrc9qupf",
+    "date": "2026-07-21",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.691Z"
+  },
+  {
+    "_id": "drxtmfntbmrc9qupg",
+    "date": "2026-07-21",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.692Z"
+  },
+  {
+    "_id": "wdxzlo3fjmrc9quph",
+    "date": "2026-07-21",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.693Z"
+  },
+  {
+    "_id": "jihz9uzgxmrc9qupi",
+    "date": "2026-07-21",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.694Z"
+  },
+  {
+    "_id": "wj8ycudwjmrc9qupk",
+    "date": "2026-07-21",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.696Z"
+  },
+  {
+    "_id": "rw6ms1c7omrc9qupm",
+    "date": "2026-07-21",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.698Z"
+  },
+  {
+    "_id": "v3spfpy54mrc9qupn",
+    "date": "2026-07-21",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.699Z"
+  },
+  {
+    "_id": "8xpfvk4igmrc9qupo",
+    "date": "2026-07-21",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.700Z"
+  },
+  {
+    "_id": "737nex7xxmrc9qupp",
+    "date": "2026-07-21",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.701Z"
+  },
+  {
+    "_id": "nuntuxab3mrc9qupq",
+    "date": "2026-07-21",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.702Z"
+  },
+  {
+    "_id": "1r2kb7j0mmrc9qupr",
+    "date": "2026-07-22",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.703Z"
+  },
+  {
+    "_id": "v95ikc962mrc9qups",
+    "date": "2026-07-22",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.704Z"
+  },
+  {
+    "_id": "46yj8258cmrc9qupt",
+    "date": "2026-07-22",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.705Z"
+  },
+  {
+    "_id": "wccosp12vmrc9qupu",
+    "date": "2026-07-22",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.706Z"
+  },
+  {
+    "_id": "qtm1x2cg9mrc9qupv",
+    "date": "2026-07-22",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.707Z"
+  },
+  {
+    "_id": "sr0v1igfmmrc9qupw",
+    "date": "2026-07-22",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.708Z"
+  },
+  {
+    "_id": "n4g6s6s5rmrc9qupx",
+    "date": "2026-07-22",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.709Z"
+  },
+  {
+    "_id": "ipwh1osj3mrc9qupy",
+    "date": "2026-07-22",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.710Z"
+  },
+  {
+    "_id": "ccyiwgur3mrc9qupz",
+    "date": "2026-07-22",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.711Z"
+  },
+  {
+    "_id": "s3lrwow9imrc9quq0",
+    "date": "2026-07-22",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.712Z"
+  },
+  {
+    "_id": "o4etmmwyjmrc9quq1",
+    "date": "2026-07-23",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.713Z"
+  },
+  {
+    "_id": "d1d4pzqasmrc9quq2",
+    "date": "2026-07-23",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.714Z"
+  },
+  {
+    "_id": "176q4kubemrc9quq3",
+    "date": "2026-07-23",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.715Z"
+  },
+  {
+    "_id": "wcwr4cqvimrc9quq3",
+    "date": "2026-07-23",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.715Z"
+  },
+  {
+    "_id": "fsa6zzp7dmrc9quq4",
+    "date": "2026-07-23",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.716Z"
+  },
+  {
+    "_id": "1sj791nh5mrc9quq5",
+    "date": "2026-07-23",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.717Z"
+  },
+  {
+    "_id": "i3cchet1cmrc9quq6",
+    "date": "2026-07-23",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.718Z"
+  },
+  {
+    "_id": "djkk2x3n7mrc9quq7",
+    "date": "2026-07-23",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.719Z"
+  },
+  {
+    "_id": "wobmklgfamrc9quq8",
+    "date": "2026-07-23",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.720Z"
+  },
+  {
+    "_id": "xu6h0hil3mrc9quq9",
+    "date": "2026-07-23",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.721Z"
+  },
+  {
+    "_id": "hucw16hghmrc9quq9",
+    "date": "2026-07-24",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.721Z"
+  },
+  {
+    "_id": "5f42qfs09mrc9quqa",
+    "date": "2026-07-24",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.722Z"
+  },
+  {
+    "_id": "ffu7bshijmrc9quqb",
+    "date": "2026-07-24",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.723Z"
+  },
+  {
+    "_id": "ieqtpldvymrc9quqc",
+    "date": "2026-07-24",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.724Z"
+  },
+  {
+    "_id": "k622rvl99mrc9quqd",
+    "date": "2026-07-24",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.725Z"
+  },
+  {
+    "_id": "db2hxmu37mrc9quqe",
+    "date": "2026-07-24",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.726Z"
+  },
+  {
+    "_id": "czn9vs3y3mrc9quqf",
+    "date": "2026-07-24",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.727Z"
+  },
+  {
+    "_id": "zhsddlyirmrc9quqg",
+    "date": "2026-07-24",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.728Z"
+  },
+  {
+    "_id": "rqoco87memrc9quqh",
+    "date": "2026-07-24",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.729Z"
+  },
+  {
+    "_id": "0004ulqs1mrc9quqi",
+    "date": "2026-07-24",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.730Z"
+  },
+  {
+    "_id": "ehv0jofpxmrc9quqi",
+    "date": "2026-07-25",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.730Z"
+  },
+  {
+    "_id": "t4mmxwqrfmrc9quqj",
+    "date": "2026-07-25",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.731Z"
+  },
+  {
+    "_id": "6281vwjsbmrc9quqk",
+    "date": "2026-07-25",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.732Z"
+  },
+  {
+    "_id": "gcs9r956pmrc9quql",
+    "date": "2026-07-25",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.733Z"
+  },
+  {
+    "_id": "kzzdlklbzmrc9quqm",
+    "date": "2026-07-25",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.734Z"
+  },
+  {
+    "_id": "nu6jhgxtxmrc9quqn",
+    "date": "2026-07-25",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.735Z"
+  },
+  {
+    "_id": "3f1uwa27imrc9quqo",
+    "date": "2026-07-25",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.736Z"
+  },
+  {
+    "_id": "fjinfrkalmrc9quqp",
+    "date": "2026-07-25",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.737Z"
+  },
+  {
+    "_id": "75h8f0mifmrc9quqq",
+    "date": "2026-07-25",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.738Z"
+  },
+  {
+    "_id": "a1njv0g1lmrc9quqq",
+    "date": "2026-07-25",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.738Z"
+  },
+  {
+    "_id": "fh4cdpcvxmrc9quqs",
+    "date": "2026-07-26",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.740Z"
+  },
+  {
+    "_id": "lv0tyb8zqmrc9quqt",
+    "date": "2026-07-26",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.741Z"
+  },
+  {
+    "_id": "fzuhu362gmrc9ququ",
+    "date": "2026-07-26",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.742Z"
+  },
+  {
+    "_id": "dcwaa4lkkmrc9quqv",
+    "date": "2026-07-26",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.743Z"
+  },
+  {
+    "_id": "fpfhk0r43mrc9quqx",
+    "date": "2026-07-26",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.745Z"
+  },
+  {
+    "_id": "hnfgoo9nrmrc9quqy",
+    "date": "2026-07-26",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.746Z"
+  },
+  {
+    "_id": "34dlgvjnkmrc9quqz",
+    "date": "2026-07-26",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.747Z"
+  },
+  {
+    "_id": "278npfcm4mrc9qur0",
+    "date": "2026-07-26",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.748Z"
+  },
+  {
+    "_id": "3wdhzpegzmrc9qur1",
+    "date": "2026-07-26",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.749Z"
+  },
+  {
+    "_id": "pn4l36eysmrc9qur2",
+    "date": "2026-07-26",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.750Z"
+  },
+  {
+    "_id": "y1tvwlmscmrc9qur4",
+    "date": "2026-07-27",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.752Z"
+  },
+  {
+    "_id": "4thxhj1r1mrc9qur5",
+    "date": "2026-07-27",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.753Z"
+  },
+  {
+    "_id": "305ygnkyumrc9qur6",
+    "date": "2026-07-27",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.754Z"
+  },
+  {
+    "_id": "yku7khjwgmrc9qur7",
+    "date": "2026-07-27",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.755Z"
+  },
+  {
+    "_id": "5ioidftctmrc9qur8",
+    "date": "2026-07-27",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.756Z"
+  },
+  {
+    "_id": "1j3lpkitxmrc9qur9",
+    "date": "2026-07-27",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.757Z"
+  },
+  {
+    "_id": "2asigtwqwmrc9qura",
+    "date": "2026-07-27",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.758Z"
+  },
+  {
+    "_id": "xmm8zip68mrc9qurb",
+    "date": "2026-07-27",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.759Z"
+  },
+  {
+    "_id": "gg36s52klmrc9qurc",
+    "date": "2026-07-27",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.760Z"
+  },
+  {
+    "_id": "q270ev3tnmrc9qurd",
+    "date": "2026-07-27",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.761Z"
+  },
+  {
+    "_id": "ghhigkhe0mrc9qure",
+    "date": "2026-07-28",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.762Z"
+  },
+  {
+    "_id": "wuu2tane3mrc9qurf",
+    "date": "2026-07-28",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.763Z"
+  },
+  {
+    "_id": "64y4b466rmrc9qurg",
+    "date": "2026-07-28",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.764Z"
+  },
+  {
+    "_id": "amn1tnh5emrc9qurh",
+    "date": "2026-07-28",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.765Z"
+  },
+  {
+    "_id": "5rdyeg259mrc9quri",
+    "date": "2026-07-28",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.766Z"
+  },
+  {
+    "_id": "66zytqpk3mrc9qurj",
+    "date": "2026-07-28",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.767Z"
+  },
+  {
+    "_id": "mjcxik29cmrc9qurk",
+    "date": "2026-07-28",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.768Z"
+  },
+  {
+    "_id": "fl7hpl92wmrc9qurk",
+    "date": "2026-07-28",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.768Z"
+  },
+  {
+    "_id": "ennxfkpihmrc9qurl",
+    "date": "2026-07-28",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.769Z"
+  },
+  {
+    "_id": "pimwqjd6wmrc9qurn",
+    "date": "2026-07-28",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.771Z"
+  },
+  {
+    "_id": "n4bfilsltmrc9quro",
+    "date": "2026-07-29",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.772Z"
+  },
+  {
+    "_id": "g74huhlm8mrc9qurp",
+    "date": "2026-07-29",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.773Z"
+  },
+  {
+    "_id": "jdadx553qmrc9qurq",
+    "date": "2026-07-29",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.774Z"
+  },
+  {
+    "_id": "y0cc9k12dmrc9qurr",
+    "date": "2026-07-29",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.775Z"
+  },
+  {
+    "_id": "p7fd64vp9mrc9qurs",
+    "date": "2026-07-29",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.776Z"
+  },
+  {
+    "_id": "hpjmyu0qgmrc9qurt",
+    "date": "2026-07-29",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.777Z"
+  },
+  {
+    "_id": "sxhzsj5stmrc9quru",
+    "date": "2026-07-29",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.778Z"
+  },
+  {
+    "_id": "v9jlq5cxymrc9qurv",
+    "date": "2026-07-29",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.779Z"
+  },
+  {
+    "_id": "162v4p4kcmrc9qurw",
+    "date": "2026-07-29",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.780Z"
+  },
+  {
+    "_id": "hauzse7uwmrc9qurx",
+    "date": "2026-07-29",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.781Z"
+  },
+  {
+    "_id": "iaagtwr1kmrc9qury",
+    "date": "2026-07-30",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.782Z"
+  },
+  {
+    "_id": "5ljbysicvmrc9qurz",
+    "date": "2026-07-30",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.783Z"
+  },
+  {
+    "_id": "qdvmndhw5mrc9qus0",
+    "date": "2026-07-30",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.784Z"
+  },
+  {
+    "_id": "v1u9ej89ymrc9qus1",
+    "date": "2026-07-30",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.785Z"
+  },
+  {
+    "_id": "7qzjnzzhkmrc9qus2",
+    "date": "2026-07-30",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.786Z"
+  },
+  {
+    "_id": "896iymo3cmrc9qus3",
+    "date": "2026-07-30",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.787Z"
+  },
+  {
+    "_id": "n7qn5n9y4mrc9qus4",
+    "date": "2026-07-30",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.788Z"
+  },
+  {
+    "_id": "z0z7hjwlqmrc9qus5",
+    "date": "2026-07-30",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.789Z"
+  },
+  {
+    "_id": "a11erg97zmrc9qus6",
+    "date": "2026-07-30",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.790Z"
+  },
+  {
+    "_id": "jarbzqhvpmrc9qus7",
+    "date": "2026-07-30",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.791Z"
+  },
+  {
+    "_id": "pjnj6i2b9mrc9qus8",
+    "date": "2026-07-31",
+    "habitId": "ngkspnblomrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.792Z"
+  },
+  {
+    "_id": "rz5fkreozmrc9qus9",
+    "date": "2026-07-31",
+    "habitId": "ajmo2xuebmrc9quau",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.793Z"
+  },
+  {
+    "_id": "otnnmxkxymrc9qusa",
+    "date": "2026-07-31",
+    "habitId": "hdwb0dg13mrc9quaw",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.794Z"
+  },
+  {
+    "_id": "i5pyct05xmrc9qusb",
+    "date": "2026-07-31",
+    "habitId": "cpf4b2e0jmrc9quax",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.795Z"
+  },
+  {
+    "_id": "barj20o7smrc9qusc",
+    "date": "2026-07-31",
+    "habitId": "gdc9bm4p9mrc9quax",
+    "completed": true,
+    "createdAt": "2026-07-08T16:04:56.796Z"
+  },
+  {
+    "_id": "4euncwom6mrc9quse",
+    "date": "2026-07-31",
+    "habitId": "e5bfqq8v2mrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.798Z"
+  },
+  {
+    "_id": "x60x9pz71mrc9qusf",
+    "date": "2026-07-31",
+    "habitId": "vh6pkm1llmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.799Z"
+  },
+  {
+    "_id": "sucgtplz3mrc9qush",
+    "date": "2026-07-31",
+    "habitId": "48o8anbppmrc9quay",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.801Z"
+  },
+  {
+    "_id": "frsy1jzbgmrc9qusp",
+    "date": "2026-07-31",
+    "habitId": "w2my722qemrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.809Z"
+  },
+  {
+    "_id": "f3in1jlekmrc9qusq",
+    "date": "2026-07-31",
+    "habitId": "21vjdlqv9mrc9quaz",
+    "completed": false,
+    "createdAt": "2026-07-08T16:04:56.810Z"
+  }
+]
